@@ -2,6 +2,10 @@
 
 This translated root changelog consolidates the legacy Chinese update notes into an English-facing summary. The detailed legacy English changelog remains available at docs/Valkyrians_Changelog.txt.
 
+## 3.3.6
+
+- Fixed the Holy Covenant War Program hullmod tooltip in the Codex. The hullmod now shows a generic doctrine overview when no ship is attached, while preserving ship-specific details in refit/combat contexts.
+
 ## Localization and Restoration Pass
 
 - Translated player-facing metadata, ship names, designations, manufacturers, fighter roles, weapon names, weapon tooltip roles, hullmod text, ship system names, blueprint package text, market condition text, mission briefings, mission UI labels, faction display names, channel names, and codex descriptions.
