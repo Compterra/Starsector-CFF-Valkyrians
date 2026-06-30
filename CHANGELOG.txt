@@ -2,6 +2,10 @@
 
 This translated root changelog consolidates the legacy Chinese update notes into an English-facing summary. The detailed legacy English changelog remains available at docs/Valkyrians_Changelog.txt.
 
+## 3.3.8
+
+- Fixed Sunfury torpedo sprite path capitalization for case-sensitive systems.
+
 ## 3.3.7
 
 - Fixed Jenova's missing Weapon Flux/Sec stat display by giving the decorative Jenova ECM Power Loop system weapon a finite charge-down value.
