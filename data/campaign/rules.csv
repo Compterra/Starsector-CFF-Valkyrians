@@ -4,9 +4,9 @@ $valkft_stage == 0","ShowPersonVisual
 $talkedTo = true
 Highlight ""Yoshura-class""","You open a comm channel and faintly hear soldiers reporting to a superior. When the image resolves, the woman before you is wearing a general's insignia.
 
-""The truth,"" General $personName explains to your visible surprise, ""is that the previous target was eliminated for reasons unknown. Our current difficulty is an armament procurement project, a rather large order. By any means available to you, deliver three mothballed Yoshura-class capital ships to me. Are you interested?""
+""The truth,"" General $personName says, noting your surprise, ""is that our previous target is already gone. The problem now is procurement: a large armament order, and not one I can place through official channels. Bring me three mothballed Yoshura-class capital ships by whatever means you find acceptable. Are you interested?""
 
-You consider the unusual commission carefully...","0:valkft_accept:Accept the commission
+You take a moment to consider the unusual commission.","0:valkft_accept:Accept the commission
 1:cutCommLink:""Forget it."" Cut the comm link",,
 vft_findadmiralGreetingTalkedTo,PickGreeting,"$valkft_isAdmiral
 $valkft_stage == 0
@@ -24,47 +24,47 @@ $valkft_stage == 1
 CallEvent $valkft_eventRef checkCondition","ShowPersonVisual
 SetEnabled valkft_delieverships $meetCondition","""Finished already?"" The general looks at you with mild surprise over the comm channel.","0:valkft_delieverships:""Yes.""
 1:cutCommLink:""Not yet. Sorry to bother you."" Cut the comm link",,
-vft_findshipsTalk0,DialogOptionSelected,$option == valkft_delieverships,$valk_talkStage = 1,"""Excellent work."" The aging general claps a hand on your shoulder.
+vft_findshipsTalk0,DialogOptionSelected,$option == valkft_delieverships,$valk_talkStage = 1,"""Excellent work."" The aging general rests a hand briefly on your shoulder.
 
-""See that battlecruiser? The old thing is scheduled to be transferred to Enigma III Industrial Station for dismantling in half a month. Would you care to take a look?""","0:vft_continue:""It would be an honor.""",,
+""Do you see that battlecruiser? The old hull is scheduled for transfer to Enigma III Industrial Station and dismantling within the month. Come with me. I want you to see it before it disappears.""","0:vft_continue:""It would be an honor.""",,
 vft_findshipsTalk1,DialogOptionSelected,"$option == vft_continue
-$valk_talkStage == 1",$valk_talkStage = 2,"You step onto a broad side deck. Dense turret clusters sit in rectangular groups near the centerline. This appears to be a Yoshura variant, though its distinctive paint scheme makes clear you have never seen a similar ship in port.
+$valk_talkStage == 1",$valk_talkStage = 2,"You step onto a broad side deck. Dense turret clusters sit in rectangular groups near the centerline. The hull is clearly a Yoshura variant, but its unfamiliar paint scheme marks it as something you have never seen in any port registry.
 
-On the command room's long table sits a palm-sized holoprojector. The surrounding compartment is dark and powerless, yet the device continues to display the bust of a man.","0:vft_continue:""This man...""",,
+A palm-sized holoprojector sits on the command room's long table. The compartment around it is dark and powerless, yet the device continues to project the bust of a man.","0:vft_continue:""This man...""",,
 vft_findshipsTalk2,DialogOptionSelected,"$option == vft_continue
-$valk_talkStage == 2",$valk_talkStage = 3,"""Less a vessel of glory than a crystallized memory.""
+$valk_talkStage == 2",$valk_talkStage = 3,"""Not a vessel of glory,"" she says. ""A memory, given armor.""
 
 The general mutters the words while walking ahead, then turns sharply. The cybernetic eye on her right side locks onto you.
 
-""Your completed task was only a test. Before we reach the real matter, let us talk about something else.""
+""The task you completed was a test. Before we speak of the real matter, there is something you need to understand.""
 
 ---- You follow the general through a long, dim maintenance conduit and out through starboard airlock A ----
 
-The noon glare forces you to narrow your eyes. Her voice cuts through it: ""All Enigma witnessed our love. Neither of us was ready for separation, but the gender revolution had reached its turning point."" Her voice catches. ""He always...""",0:vft_continue:Continue,,
+The noon glare forces you to narrow your eyes. Her voice cuts through it: ""All of Enigma witnessed our love. Neither of us was ready to part, but the gender revolution had reached the point where no one could remain neutral."" Her voice catches. ""He always...""",0:vft_continue:Continue,,
 vft_findshipsTalk3,DialogOptionSelected,"$option == vft_continue
-$valk_talkStage == 3",$valk_talkStage = 4,"""It was an external campaign, a large-scale struggle against the Hegemony. In the original plan, alongside full internal mobilization, the vultures of war were already circling. Two fleets crawled like beasts along the asteroid-strewn edge of the system for days, carefully turning their most aggressive formations toward each other. Fleet maneuvers on that scale were a spectacle even in this Sector. Detachments and scout wings stretched as far as three light-years.
+$valk_talkStage == 3",$valk_talkStage = 4,"""It was an expeditionary campaign, a large-scale struggle against the Hegemony. By the time full mobilization began at home, the vultures of war were already circling. Two fleets stalked each other for days along the asteroid-strewn edge of the system, easing their most aggressive formations into position. Maneuvers on that scale were a spectacle even by Sector standards. Detachments and scout wings stretched across three light-years.
 
-""The first day went well. Battles ignited across four fronts, and the Hegemony vanguard took severe losses; one aviation battleship was nearly reduced to scrap.
+""The first day went well. Battles ignited across four fronts, and the Hegemony vanguard took severe losses; one carrier-battleship was nearly reduced to scrap.
 
-""The second day began with a military mutiny. He led the defectors in an axial jump, seized a prototype Yoshura variant, and tore open the campaign from within.""","0:vft_continue:You cannot help leaning forward, eager to hear the rest.",,
+""The second day began with a mutiny. He led the defectors through an axial jump, seized a prototype Yoshura variant, and tore the campaign open from within.""","0:vft_continue:You cannot help leaning forward, eager to hear the rest.",,
 vft_findshipsTalk4,DialogOptionSelected,"$option == vft_continue
-$valk_talkStage == 4",$valk_talkStage = 5,"""After the battle, the traitors made no further move. They simply left the system. But the Valkyrians never stopped looking for them."" The general pauses, her expression unreadable.
+$valk_talkStage == 4",$valk_talkStage = 5,"""After the battle, the traitors made no further move. They simply left the system. The Valkyrians never stopped looking for them."" The general pauses, her expression unreadable.
 
-""In truth, a report of possible fleet signatures in close orbit around a certain system stayed on my personal terminal until I retired from the front line. That is where he is hiding. If command learns of it, treason and a gallows await him.
+""In truth, a report of possible fleet signatures near a certain system remained on my personal terminal until I retired from the front. That is where he is hiding. If command learns of it, treason and a gallows await him.
 
-""This must end, but I do not want him to die in humiliation. That is why I found you. You are the only captain I believe has both patience and strength enough to handle him quietly. When it is done, you may keep every prize.""",0:vft_continue:Ask for more information about him.,,
+""This must end, but I will not see him dragged home in chains. That is why I found you. You are the only captain I believe has the patience and strength to handle him quietly. When it is done, every prize you take is yours.""",0:vft_continue:Ask for more information about him.,,
 vft_findshipsTalk5,DialogOptionSelected,"$option == vft_continue
-$valk_talkStage == 5","AddText ""- This choice has irreversible consequences. Choose carefully. -"" good","After a longer conversation, you learn that he was once the refit chief of the general's flagship, obsessed with modification to an almost unimaginable degree.
+$valk_talkStage == 5","AddText ""- This choice has irreversible consequences. Choose carefully. -"" good","After a longer conversation, you learn that he was once the refit chief aboard the general's flagship, obsessed with modification to an almost impossible degree.
 
-""What... do you think?"" the general asks, her voice trembling and distant.","0:vft_type_love:""Isn't this honored flagship covered in proof of his love for you?""
+""What do you think?"" the general asks, her voice distant and unsteady.","0:vft_type_love:""Isn't this honored flagship covered in proof that he loved you?""
 1:vft_type_hate:""Hatred cuts as deeply as love.""
 2:vft_type_normal:""A fatal kind of foolishness, wasn't it?""",,
 vft_findshipsTalkChoseLove,DialogOptionSelected,$option == vft_type_love,"CallEvent $valkft_eventRef withdrawYoshura
 CallEvent $valkft_eventRef chooseType 0
-CallEvent $valkft_eventRef nextStage","The general suddenly trembles, and a whole galaxy seems to surge behind her eyes. Her age-worn face fills with grief so sharp it hurts to witness. She gives you one long look, then leaves without turning back.",0:cutCommLink:Leave,,
+CallEvent $valkft_eventRef nextStage","The general trembles, and for a moment a whole galaxy seems to move behind her eyes. Grief crosses her age-worn face with such force that it hurts to witness. She gives you one long look, then leaves without turning back.",0:cutCommLink:Leave,,
 vft_findshipsTalkChoseHate,DialogOptionSelected,$option == vft_type_hate,"CallEvent $valkft_eventRef withdrawYoshura
 CallEvent $valkft_eventRef chooseType 1
-CallEvent $valkft_eventRef nextStage","The general sighs and turns away, her silhouette diminished. You have never trusted sentimental writing, but in that instant she truly seems ten years older.",0:cutCommLink:Leave,,
+CallEvent $valkft_eventRef nextStage","The general sighs and turns away, her silhouette diminished. You have never trusted sentimental stories, but in that instant she truly seems ten years older.",0:cutCommLink:Leave,,
 vft_findshipsTalkChoseNormal,DialogOptionSelected,$option == vft_type_normal,"CallEvent $valkft_eventRef withdrawYoshura
 CallEvent $valkft_eventRef chooseType 2
 CallEvent $valkft_eventRef nextStage","Her cybernetic eye flickers rapidly, betraying the state she is trying to hide. The general masters herself quickly. ""It is time to go,"" she says, and leaves without another word.",0:cutCommLink:Leave,,
@@ -79,28 +79,28 @@ CallEvent $valkft_eventRef succeed
 OpenComms",,,,
 vft_findHeGreeting0,OpenCommLink,$valkft_isHe score:100,"$entity.ignorePlayerCommRequests = true
 $vft_fhc = 1
-","To your surprise, you receive his comm request first. When you accept, he begins speaking as if he already knows why you came.
+","To your surprise, his comm request reaches you first. When you accept, he begins speaking as if he already knows why you came.
 
-""You are the one she sent, aren't you? This day did not arrive as late as I expected.""
+""You are the one she sent, aren't you? This day came later than I expected, but not by much.""
 
-The wanderer leader's eyelids droop. He looks less like a fleet commander than a man weathered by too many ports and too much empty space.
+The wanderer's eyelids droop. He looks less like a fleet commander than a man weathered by too many ports and too much empty space.
 
-""Years in the void cost us dearly. This ship was once full of revolutionary hope. We tried to build our own utopia, but on the new world we ran out of fuel money. Alliance merchants manipulated a fragile colonial economy, made famine, and squeezed every credit from the people.""
+""Years in the void cost us dearly. This ship was once full of revolutionary hope. We tried to build our own utopia, but the colony bled fuel, food, and credit faster than we could replace them. Alliance merchants found every weakness in that fragile economy and squeezed until the people had nothing left.""
 
 ""When I realized destroying trade fleets only made our own survival impossible, I understood what exile truly meant.""","0:vft_he_continue:""You once loved each other. How did it come to this?""",,
 vft_findHeGreeting1,DialogOptionSelected,"$option == vft_he_continue
-$vft_fhc == 1",$vft_fhc = 2,"""At some point, communication stopped. Both sides silently insisted on their own justice through action. On the eve of the great battle, my followers and I hid old carbines and electromagnetic rifles inside supply crates and moved them aboard. We could not let the chance pass. The crushing weight of interstellar power was suffocating the movement. We had to reach the edge of Valkyrian force projection. It was our only road out.""","0:vft_he_continue:""I cannot deny that it was a great struggle.""",,
+$vft_fhc == 1",$vft_fhc = 2,"""At some point, communication simply stopped. Both sides insisted on justice through action, and neither could bear to speak first. On the eve of the great battle, my followers and I hid old carbines and electromagnetic rifles inside supply crates and moved them aboard. We could not let the chance pass. The weight of interstellar power was suffocating the movement. We had to reach the edge of Valkyrian force projection. It was our only road out.""","0:vft_he_continue:""I cannot deny that it was a great struggle.""",,
 vft_findHeGreeting2,DialogOptionSelected,"$option == vft_he_continue
-$vft_fhc == 2",$vft_fhc = 3,"""We seized a detachment with the speed of thunder. Before anyone exposed us, revolutionaries boarded a prototype Yoshura variant and killed the defending foot-lancers. Their pulse deflection fields failed completely under concentrated fire. The fall of that battleship became the movement's greatest achievement.
+$vft_fhc == 2",$vft_fhc = 3,"""We struck before anyone understood what was happening. Revolutionaries boarded a prototype Yoshura variant and killed the defending marine-lancers before the alarm could spread. Their pulse deflection fields failed under concentrated fire. The fall of that battleship became the movement's greatest achievement.
 
-""The outpost was our final target. Once armed mobs stripped it bare, we broke from the organization and became residents of the silent void. From the captured battleship's frame and the outpost's secrets, I built this war machine. I chose to defend the meaning of my life with iron and blood until the final moment.""
+""The outpost was our final target. Once armed crowds stripped it bare, we broke from the organization and vanished into the silent void. From the captured battleship's frame and the outpost's secrets, I built this war machine. I chose to defend the meaning of my life with iron and blood until the final moment.""
 
 Resolve hardens in his eyes as he raises a hand to cut the channel.","0:vft_he_continue:""Allow me one last question. What do you think of her now?""",,
 vft_findHeLove,DialogOptionSelected,"$option == vft_he_continue
 $valkft_type == 0
 $vft_fhc == 3",,"""She is the only one, in every moment.""
 
-Both sides fall silent. After a while, he looks at you, and the stars in his eyes seem never to have gone out. He cuts the connection with final resolve. His transmission ends, announcing both the end of a story and the beginning of a battle.",cutCommLink:Cut the link,,
+Both sides fall silent. After a while, he looks at you, and the stars in his eyes seem never to have gone out. He cuts the connection with final resolve. The transmission ends, and the battle begins.",cutCommLink:Cut the link,,
 vft_findHeHate,DialogOptionSelected,"$option == vft_he_continue
 $valkft_type == 1
 $vft_fhc == 3",,"""I hate her.""

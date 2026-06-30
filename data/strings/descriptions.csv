@@ -23,7 +23,7 @@ The claim that it was once the largest carrier in the Sector is not idle boastin
 
 Its own battleship-grade armament ensures that even fleets able to breach the fighter screen must still face a capital ship in its own right.",,,,
 ,,,,,,
-valk_yoshura,SHIP,"A giant warship representing the Valkyrians' modern technical revolution, the Yoshura is almost unmatched in extended engagements. Enemies meeting one on patrol are advised to proceed carefully.
+valk_yoshura,SHIP,"A giant warship born from the Valkyrians' modern technical revolution, the Yoshura is nearly unmatched in extended engagements. Enemy captains who meet one on patrol are advised to proceed carefully.
 
 The class was born from a need to replace aging super-capital hulls that no longer fit modern naval standards. The Yoshura was expanded from an older concept into something larger, tougher, and more self-sufficient than any contemporary Valkyrian battleship, complete with advanced command spaces, all-aspect ECM, improved shields, thick armor, and a powerful reactor.
 
@@ -33,11 +33,11 @@ valk_yoshura_VI,SHIP,"The sixth major Yoshura refit miniaturizes the core hull p
 
 The Yoshura Mk.VI often serves beside Vatican Mk.I carriers in large carrier groups. Its record during the war against the Invaders made it one of the most successful Yoshura derivatives.",,,,
 valk_cherberos,SHIP,"The Cherberos was developed as a battlecruiser replacement for the old Yoshura Mk.I line. It trades some armor mass and heavy weapons for a lighter frame, higher speed, and better tactical response.",,,,
-valk_radiance,SHIP,"One of the most solid super-battleships ever designed by the Valkyrians, the Radiance has earned its reputation through repeated victories.
+valk_radiance,SHIP,"One of the most dependable super-battleships ever designed by the Valkyrians, the Radiance has earned its reputation through repeated victories.
 
-Its fundamentals are almost without weakness. During border clashes with other Persean powers, Radiance-class captains recorded engagements against multiple enemy capitals at once and left several fleets crippled without requiring major support.
+Its fundamentals leave little room for weakness. During border clashes with other Persean powers, Radiance-class captains recorded engagements against multiple enemy capitals at once and left several fleets crippled without requiring major support.
 
-Among Valkyrian-aligned mercenary commands, Radiance captains enjoy a prestige that makes even Paragon and Onslaught officers stand a little straighter.",,,,
+Among Valkyrian-aligned mercenary commands, Radiance captains enjoy a prestige that makes even Paragon and Onslaught officers take notice.",,,,
 ,,,,,,
 ,,,,,,
 valk_elegy,SHIP,"When an Elegy is committed, the Valkyrians have chosen a desperate counterstroke. This siege ship is built around a heavy-cruiser concept but carries offensive power closer to a battleship.
@@ -73,11 +73,11 @@ valk_elfheim,SHIP,"A mainstay of the Valkyrian Navy. Its loadout changes with th
 Because of its reliability and operating efficiency, large fleets often assign Elfheims to long-range missile support, skirmishing, or harassment duty.",,,,
 ,,,,,,
 valk_eclair,SHIP,"A prototype destroyer from the Valkyrian modernization program. Complex, expensive, and still under evaluation, the Eclair shows what the navy wants its next generation of destroyers to become.",,,,
-valk_elysium,SHIP,"Built for fast strikes, the Elysium can punish enemies who dismiss it as merely a destroyer. Its combination of maneuverability and armor is alarming on a hull of this size.",,,,
+valk_elysium,SHIP,"Built for fast strikes, the Elysium can punish enemies who dismiss it as only a destroyer. Its combination of maneuverability and armor is alarming on a hull of this size.",,,,
 valk_valkyrie_b,SHIP,"Originally a troop transport, this early carrier experiment was rebuilt into a light carrier. Newer designs have surpassed it, but it remains an attractive option when budgets are tight.",,,,
 valk_tesladora_ii,SHIP,"Usually deployed around stations or key objectives, though some examples accompany fleets. Its heavy armor and strong shields allow it to stare down ships of its own class with unnerving confidence.",,,,
 valk_topaz,SHIP,A practical tanker built so Valkyrian fleets do not have to depend on civilian or foreign fuel craft. It carries enough reserves to support extended fleet operations.,,,,
-valk_emerald,SHIP,"If one Valkyrian freighter is considered truly indispensable, it is the Emerald. Reliable, spacious, and easy to integrate into military logistics, it is the quiet workhorse behind many deployments.",,,,
+valk_emerald,SHIP,"If any Valkyrian freighter is considered indispensable, it is the Emerald. Reliable, spacious, and easy to fold into military logistics, it is the quiet workhorse behind many deployments.",,,,
 ,,,,,,
 ,,,,,,
 valk_inquisitor,SHIP,"Developed alongside the Jenova, this heavy frigate uses oversized weapons to punish anything careless enough to let it close. Its main gun can threaten cruisers and even inattentive battleships.
@@ -181,14 +181,14 @@ valk_chargingjets,SHIP_SYSTEM,Increases maximum speed and maneuverability while 
 valk_overcharge,SHIP_SYSTEM,"Overclocks the ship, increasing weapon damage and maximum speed by up to 25%, and flux dissipation and maneuverability by up to 50%. When the system ends, the same attributes are reduced by 100% for a short time.",Assault,25%,50% | 100%,
 valk_valiant_defense,SHIP_SYSTEM,"Releases safety protocols and restraint cores, greatly improving ship performance and repairing hull integrity. Benefits include flux dissipation, maximum speed, maneuverability, weapon damage, shield resistance, and more. Any damage taken by the ship reduces this system's cooldown.",Assault,,,
 valk_inferniumdrive,SHIP_SYSTEM,"Injects volatile accelerants into the engines, greatly increasing drive output.",Assault,,,
-valk_phaseteleporter,SHIP_SYSTEM,"A Valkyrian spatial jump system, functionally similar to the Hyperion-class teleporter.",Maneuvering,,,
+valk_phaseteleporter,SHIP_SYSTEM,"A Valkyrian spatial-jump system, functionally similar to the Hyperion-class teleporter.",Maneuvering,,,
 valk_burstdrive,SHIP_SYSTEM,"Instantly accelerates the engines, hurling the ship forward at extreme speed. Severe impact can flame out the engines.",Maneuvering,"Instantly accelerates the engines, hurling the ship forward at extreme speed. Severe impact can flame out the engines.",,
 ,,,,,,
 valkyrian,FACTION,"The Valkyrians are an independent military power in this region of the Sector, descended from a Domain-era frontier polity in a poorly charted corner of space. Years of private research into recovered Domain core technologies allowed them to arm themselves with increasingly sophisticated ships and weapons, eventually becoming a respected and dangerous force in naval engineering.
 
 But simple blueprint study was never enough. As advanced technologies disappeared into vaults, black sites, and private arsenals, the Valkyrians turned to bolder methods: recovery expeditions, clandestine acquisition, and weapons programs that blurred the line between restoration and ambition.
 
-Today their fleets are disciplined, heavily armed, and deeply proud. Their super-capital traditions are expensive and politically charged, but few rivals doubt the results.",,,,
+Today their fleets are disciplined, heavily armed, and deeply proud. Their super-capital traditions are ruinously expensive and politically charged, but few rivals doubt the results.",,,,
 valk_boostrefit,SHIP_SYSTEM,"Reduces carrier readiness decay and fighter replacement time by one third, while doubling the speed and maneuverability of returning fighters. Activation generates heavy flux.",Assault,,,
 ,,,,,,
 valk_planet_enigma_i,CUSTOM,"The capital world of the Valkyrians and the seat from which royal decrees are issued across their territory.
@@ -199,7 +199,7 @@ As the primary forge-world of Valkyrian power, Enigma I is never quiet. Orbital 
 valk_station_enigma_i,CUSTOM,"A high-orbit defense installation suspended above Enigma I. Unlike the sky fortresses assigned to close planetary defense, this station contains extensive manufacturing facilities and can sustain itself for long periods. Its vast berths hold capital ships, and during the Valkyrians' age of expeditionary glory it watched generations of fleets depart for distant campaigns.",,,,
 valk_planet_enigma_i_moon,CUSTOM,"Bleak winds scour this disorderly moon, and few ships have approached it in years. On Enigma I, no one gives the same explanation twice.
 
-The latest survey recorded in the Valkyrian royal archives dates back fourteen years. Investigators found an unsettling trace in the ruins: the remains of unknown organisms arranged in patterns too deliberate to dismiss, perhaps connected to one of the Valkyrians' oldest and most feared enemies.",,,,
+The latest survey in the Valkyrian royal archives is fourteen years old. Investigators found an unsettling trace in the ruins: the remains of unknown organisms arranged in patterns too deliberate to dismiss, perhaps connected to one of the Valkyrians' oldest and most feared enemies.",,,,
 valk_planet_enigma_ii,CUSTOM,"A Valkyrian mining world whose importance has grown as the faction's outer holdings contracted during modernization.
 
 Rich mineral seams and volatile geysers along the equator feed the endless appetite of Valkyrian fleets and war industry. Unlike the polished capital of Enigma I, most of the population here lives by hard labor, keeping the machinery of the state supplied from below.",,,,

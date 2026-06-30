@@ -70,7 +70,7 @@
     "event_failed": "Failed",
     "event_failed_s0": "You failed the Valkyrian's expectations.",
     "event_otherEnd": "Unexpected End",
-    "event_otherEnd_s0": "According to an informant, the fleet carrying the man has vanished. Unfortunately, you will not be able to meet the person who caught your interest.",
+    "event_otherEnd_s0": "According to an informant, the fleet carrying the man has vanished. The person who caught your interest is now beyond reach.",
     "event_s0": "A Valkyrian officer has given you a bounty dossier. To learn the details, you need to find the client behind it.",
     "event_s0_l0": "Travel to %s in %s",
     "event_s1": "The general wants three brand-new Yoshura-class battleships delivered to her planet's port before the deadline.",
