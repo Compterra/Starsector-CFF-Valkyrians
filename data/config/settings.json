@@ -1,8 +1,8 @@
 {
   "designTypeColors": {
-    "Valkyrians - Orken Manufacturing Group": [130, 0, 0, 255],
-    "Valkyrians - Horizon Shipyards": [200, 20, 40, 255],
-    "Valkyrians - Enigma Company": [150, 0, 70, 255],
+    "Orken Manufacturing Group": [130, 0, 0, 255],
+    "Horizon Shipyards": [200, 20, 40, 255],
+    "Enigma Company": [150, 0, 70, 255],
   },
   "plugins": {
     "valk_CombatPlugin": "data.scripts.plugins.valk_CombatPlugin"

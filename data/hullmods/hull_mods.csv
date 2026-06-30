@@ -1,53 +1,53 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
-Recon System Enhancement,valk_reconoptimization,1,,Valkyrians - Orken Manufacturing Group,engines,Scouting,5000,,,,8,0,0,0,data.hullmods.valk_ReconOptimization,"Switches the ship into reconnaissance configuration, increasing its %s sensor profile and maneuverability at the cost of reducing all weapon damage by %s.
+Recon System Enhancement,valk_reconoptimization,1,,Orken Manufacturing Group,engines,Scouting,5000,,,,8,0,0,0,data.hullmods.valk_ReconOptimization,"Switches the ship into reconnaissance configuration, increasing its %s sensor profile and maneuverability at the cost of reducing all weapon damage by %s.
 
 Can only be installed on frigates.",Improves mobility and reconnaissance at the cost of weapon damage.,,graphics/hullmods/valk_recon_optimization.png
-Skogul Modernization Package,valk_skogulmodernization,2,,Valkyrians - Orken Manufacturing Group,special,Systems,12000,,,,5,10,15,25,data.hullmods.valk_SkogulModernization,"A rigorous Valkyrian refit doctrine that raises overall ship performance, including flux handling, hull endurance, speed, maneuvering, and weapon output.",Improves ship performance at the cost of higher supply use.,"Performance bonus increased to %s, and %s.",graphics/hullmods/valk_skogul_modernization.png
-Ward Plating,valk_fluxplating,,,Valkyrians - Orken Manufacturing Group,,Defensive,,,TRUE,,0,0,0,0,data.hullmods.valk_FluxPlating,"Valkyrian super-capital hulls rely on advanced electroplated armor layers that render critical systems almost immune to EMP disruption.
+Skogul Modernization Package,valk_skogulmodernization,2,,Orken Manufacturing Group,special,Systems,12000,,,,5,10,15,25,data.hullmods.valk_SkogulModernization,"A rigorous Valkyrian refit doctrine that raises overall ship performance, including flux handling, hull endurance, speed, maneuvering, and weapon output.",Improves ship performance at the cost of higher supply use.,"Performance bonus increased to %s, and %s.",graphics/hullmods/valk_skogul_modernization.png
+Ward Plating,valk_fluxplating,,,Orken Manufacturing Group,,Defensive,,,TRUE,,0,0,0,0,data.hullmods.valk_FluxPlating,"Valkyrian super-capital hulls rely on advanced electroplated armor layers that render critical systems almost immune to EMP disruption.
 
 EMP damage taken reduced by %s.",Greatly reduces EMP damage.,,graphics/hullmods/valk_em_ward_plating.png
-Brynhildr Rotary Core,valk_bryncore,,,Valkyrians - Orken Manufacturing Group,,Weapons,,,TRUE,,0,0,0,0,data.hullmods.valk_BrynCore,"A specialized structure found around the turret-root flux conduits of advanced Valkyrian ships, granting exceptional compatibility with Valkyrian weapon systems.
+Brynhildr Rotary Core,valk_bryncore,,,Orken Manufacturing Group,,Weapons,,,TRUE,,0,0,0,0,data.hullmods.valk_BrynCore,"A specialized structure found around the turret-root flux conduits of advanced Valkyrian ships, granting exceptional compatibility with Valkyrian weapon systems.
 
 - Flux cost to fire all weapons reduced by %s
 - Range of Valkyrian weapons increased by %s",Improves weapon efficiency and Valkyrian weapon range.,,graphics/hullmods/valk_bryncore.png
-Micro Rotary Core,valk_microbryncore,,,Valkyrians - Orken Manufacturing Group,,Weapons,,,TRUE,,0,0,0,0,data.hullmods.valk_MicroBrynCore,"A miniaturized Brynhildr core.
+Micro Rotary Core,valk_microbryncore,,,Orken Manufacturing Group,,Weapons,,,TRUE,,0,0,0,0,data.hullmods.valk_MicroBrynCore,"A miniaturized Brynhildr core.
 - Ballistic and energy weapon OP costs are reduced by %s/%s/%s based on weapon size.
 - Range of Valkyrian weapons increased by %s
 
 Commonly installed on cruiser-sized and smaller warships.",Reduces weapon OP costs and improves Valkyrian weapon range.,,graphics/hullmods/valk_microbryncore.png
-Valhalla Core,valk_valhallacore,,,Valkyrians - Orken Manufacturing Group,,Systems,,,TRUE,,8,0,0,"0
+Valhalla Core,valk_valhallacore,,,Orken Manufacturing Group,,Systems,,,TRUE,,8,0,0,"0
 ",data.hullmods.valk_ValhallaCore,"The Valkyrians do not fear death; this core is the symbol of that conviction.
 When flux exceeds %s, weapon damage increases by up to %s, while high explosive and kinetic damage taken also increases by up to %s.
 
 While traveling in a straight line, maximum combat speed increases by up to %s.","Rewards high-risk, high-flux aggression.",,graphics/hullmods/valk_valhallacore.png
-Cruiser Hunter Suite,valk_cruiserhunter,,,Valkyrians - Orken Manufacturing Group,,Weapons,,,TRUE,,0,0,0,0,data.hullmods.valk_CruiserHunter,"An expensive hardware suite built around killing cruiser-scale targets. It scans structural weaknesses more quickly and dynamically tunes the fire-control system.
+Cruiser Hunter Suite,valk_cruiserhunter,,,Orken Manufacturing Group,,Weapons,,,TRUE,,0,0,0,0,data.hullmods.valk_CruiserHunter,"An expensive hardware suite built around killing cruiser-scale targets. It scans structural weaknesses more quickly and dynamically tunes the fire-control system.
 
 Damage to cruisers increased by %s.
 Damage to destroyers increased by %s.
 Ballistic and energy weapon range increased by %s.",Specialized against cruisers.,,graphics/hullmods/valk_cruiserhunter.png
-Orken Retrofit - Peak Fire,valk_peakfire,2,,Valkyrians - Orken Manufacturing Group,offensive,Weapons,10000,,,,3,6,10,15,data.hullmods.valk_PeakFire,"One of Orken Manufacturing Group's proprietary Valkyrian refit patterns, tailored for captains who believe there is no such thing as too many turrets.
+Orken Retrofit - Peak Fire,valk_peakfire,2,,Orken Manufacturing Group,offensive,Weapons,10000,,,,3,6,10,15,data.hullmods.valk_PeakFire,"One of Orken Manufacturing Group's proprietary Valkyrian refit patterns, tailored for captains who believe there is no such thing as too many turrets.
 
 Sustained fire from non-PD weapons charges an adaptive beam-energy matrix that improves weapon performance.
 At maximum charge, ballistic and energy weapons gain %s rate of fire and flux-cost bonuses. These bonuses peak after firing for %s of the ship's peak operating time, then decay at %s times the charge rate once weapons stop firing.",Sustained fire improves weapon tempo and efficiency.,Peak-time requirement reduced to %s of normal.,graphics/hullmods/valk_peakfire.png
-Orken Retrofit - Flux Fog,valk_fluxfog,2,,Valkyrians - Orken Manufacturing Group,special,Special,7500,,,,3,6,10,15,data.hullmods.valk_FluxFog,"One of Orken Manufacturing Group's proprietary Valkyrian refit patterns.
+Orken Retrofit - Flux Fog,valk_fluxfog,2,,Orken Manufacturing Group,special,Special,7500,,,,3,6,10,15,data.hullmods.valk_FluxFog,"One of Orken Manufacturing Group's proprietary Valkyrian refit patterns.
 
 The system keeps flux contained around the hull instead of letting it bleed away, adapting to local constants until the ship's structure hardens under stress.
 
 After flux remains above %s for more than %s of peak operating time, the ship gains an additional %s armor and hull damage resistance.",Maintained high flux improves durability.,Peak-time requirement reduced to %s of normal.,graphics/hullmods/valk_fluxfog.png
-Orken Retrofit - Redsteel Armor,valk_redarmor,2,,Valkyrians - Orken Manufacturing Group,defensive,Special,8000,,,,3,6,10,15,data.hullmods.valk_RedArmor,"One of Orken Manufacturing Group's proprietary Valkyrian refit patterns, issued to captains who prefer to fight on the knife edge.
+Orken Retrofit - Redsteel Armor,valk_redarmor,2,,Orken Manufacturing Group,defensive,Special,8000,,,,3,6,10,15,data.hullmods.valk_RedArmor,"One of Orken Manufacturing Group's proprietary Valkyrian refit patterns, issued to captains who prefer to fight on the knife edge.
 
 Under the original protocol, armor damage is linked directly into the power grid:
 - Damage stimulates flux dissipation efficiency for up to %s seconds
 - Dissipation bonus scales linearly between %s and %s
 - Bonus reaches maximum when a single damage event exceeds %s of armor value
 - If shields were down before armor was damaged, the ship also gains hard-flux dissipation while shields are up, up to %s",Improves high-flux combat resilience.,Flux dissipation bonus cap adjusted to %s.,graphics/hullmods/valk_redarmor.png
-Holy Covenant Decisive Doctrine,valk_holycovenant,,,Valkyrians - Orken Manufacturing Group,,Systems,,,TRUE,,0,0,0,0,data.hullmods.valk_HolyCovenant,"A capital-fleet doctrine of the Valkyrians. The great ships that cross the battlefield dominate through more than technical superiority; they impose a psychological gravity of their own.
+Holy Covenant Decisive Doctrine,valk_holycovenant,,,Orken Manufacturing Group,,Systems,,,TRUE,,0,0,0,0,data.hullmods.valk_HolyCovenant,"A capital-fleet doctrine of the Valkyrians. The great ships that cross the battlefield dominate through more than technical superiority; they impose a psychological gravity of their own.
 
 Valkyrian capital ships grant bonuses to allied ships and fighter wings within %s range, including themselves. Higher deployment point or OP cost increases the strength of the benefit. These bonuses can stack, but are capped.",Valkyrian capitals empower nearby allies.,,graphics/hullmods/valk_holycovenant.png
-Parting Love Letter,valk_yoshuraSkinLove,,,Valkyrians - Orken Manufacturing Group,,Yoshura,,,TRUE,,0,0,0,0,data.hullmods.valk_YoshuraSkin,"This is love's final song.
+Parting Love Letter,valk_yoshuraSkinLove,,,Orken Manufacturing Group,,Yoshura,,,TRUE,,0,0,0,0,data.hullmods.valk_YoshuraSkin,"This is love's final song.
 This ship's ballistic weapon flux cost is reduced by %s.",Soul of Yoshura.,,graphics/hullmods/valk_yoshuralove.png
-Irrefutable Break,valk_yoshuraSkinHate,,,Valkyrians - Orken Manufacturing Group,,Yoshura,,,TRUE,,0,0,0,0,data.hullmods.valk_YoshuraSkin,"This is hatred's obituary.
+Irrefutable Break,valk_yoshuraSkinHate,,,Orken Manufacturing Group,,Yoshura,,,TRUE,,0,0,0,0,data.hullmods.valk_YoshuraSkin,"This is hatred's obituary.
 This ship's ballistic weapon rate of fire is increased by %s.",Soul of Yoshura.,,graphics/hullmods/valk_yoshurahate.png
-Burial Psalm,valk_yoshuraSkinNormal,,,Valkyrians - Orken Manufacturing Group,,Yoshura,,,TRUE,,0,0,0,0,data.hullmods.valk_YoshuraSkin,"""If not for you...""
+Burial Psalm,valk_yoshuraSkinNormal,,,Orken Manufacturing Group,,Yoshura,,,TRUE,,0,0,0,0,data.hullmods.valk_YoshuraSkin,"""If not for you...""
 This ship's ballistic weapon flux cost is reduced by %s and ballistic weapon rate of fire is increased by %s.",Soul of Yoshura.,,graphics/hullmods/valk_yoshuranormal.png
 ,,,,,,,,,,,,,,,,,,,
