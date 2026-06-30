@@ -1,0 +1,34 @@
+# Valkyrian Ship Classification Notes
+
+## Titans
+Titan-class hulls are beyond normal naval scale, larger than many stations and far beyond the budget of any practical fleet. The Valkyrians have only completed one confirmed vessel of this class, and even that was possible because a recovered wreck gave engineers a usable structural model and reduced development costs dramatically. The expense of construction, maintenance, and deployment convinced Valkyrian planners that ships of this size are strategic symbols rather than repeatable fleet assets.
+
+## Dreadnoughts
+Dreadnoughts are immense warships built around large-caliber weapons. Their primary uses are planetary bombardment and attacks on fortified stations. Outside those missions, their value is limited: their size and poor maneuverability make them obvious targets for super-heavy anti-ship weapons. Some Valkyrian dreadnoughts remain in service, but their maintenance burden keeps them controversial.
+
+## Supercarriers
+Supercarriers are exactly what the name implies: giant carrier hulls able to maintain, repair, launch, and coordinate enormous fighter formations. They can lock down broad volumes of space and strike several objectives at once. Their heavy internal structure lets them absorb punishment while their air groups do the killing. Unlike dreadnoughts, supercarriers remain economically useful because their workshops and onboard infrastructure let them operate for long periods without external support.
+
+## Battleships
+Battleships are large, heavily armed, and well-defended command ships. A single battleship can anchor a line, compel surrender, or change the shape of an engagement. The Valkyrians favor this class despite its cost because the battlefield effect often justifies the expense.
+
+## Battlecruisers
+Valkyrian battlecruisers are common sights in their fleets. They trade some armor mass for improved drives, refined hardware, and strong weapon systems, achieving high speed without becoming immobile armored blocks.
+
+## Heavy Cruisers
+Heavy cruisers are among the most widely used Valkyrian warships. They are tough, capable of sustained combat, and still affordable enough to appear in meaningful numbers.
+
+## Cruisers
+Cruisers often serve as armed logistics ships, escorts, or lighter combatants. Naval design standards give them better weapons than civilian equivalents, but they remain faster and less heavily armored than heavy cruisers. Valkyrian yards rarely prioritize light cruisers because the same resources often produce better returns in destroyers or heavy cruisers.
+
+## Destroyers
+Destroyers are the workhorses of the navy. Their speed, adaptability, useful firepower, and low cost make them the backbone of many fleet formations.
+
+## Frigates
+Frigates are used for scouting, special operations, escort work, and opportunistic combat. With the right fit, they can handle almost any small-scale assignment.
+
+## Fighters
+Fighters are a carrier's primary weapon system. Valkyrian fighter design is unusually advanced, with craft specialized for harassment, interception, strike work, and battlefield control.
+
+## Bombers
+Bombers exist to destroy large ships. They are at their best when a carrier group can open a path through enemy point defense and give them a clean attack run.

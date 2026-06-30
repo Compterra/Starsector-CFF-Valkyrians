@@ -1,0 +1,37 @@
+# Valkyrian Lore Notes
+
+The Valkyrians are an independent military power descended from a Domain-era frontier polity. Their territory occupied a poorly charted corner of space, rich in industrial remnants and old technical archives. Years of private research into Domain core technologies let them arm themselves with increasingly advanced ships, weapons, and command systems.
+
+At first, the Valkyrians learned by studying and improving old blueprints. Over time that became insufficient. As the best technologies vanished into vaults, black sites, and rival hands, their leadership adopted more aggressive recovery programs and began treating technical superiority as a matter of national survival.
+
+After the Collapse, they poured industrial capacity into mobile gate-drive projects. These systems allowed limited strategic movement without stable gates, provided a properly equipped super-capital fleet could anchor operations in the target region. Some holdings survived, others collapsed into forgotten or lost worlds, and eventually Valkyrian fleets found their way into the wider Persean competition.
+
+The name "Valkyrian" reflects the faction's old officer culture: many senior officers, bridge crews, and ceremonial guards were women equipped with advanced laser lances and shield systems. In the modern navy, the symbolism remains, but the state depends on a much broader professional class of engineers, soldiers, laborers, and administrators.
+
+## Orken Manufacturing Group
+
+Orken is the largest industrial-political bloc within Valkyrian space. It controls major shipyards, automated factories, and military contracts across the faction's territory. Most capital and cruiser programs answer to Orken yards, including the Nirvana line, Inquisitor, Jenova, and the super-capital programs.
+
+## Horizon Shipyards
+
+Horizon began as an Orken subsidiary and gradually became the primary yard for smaller hulls, parts of the Almire cruiser line, and support work on larger warships. Horizon doctrine prizes practical production, maintainability, and enough speed to let Valkyrian fleets choose their engagements.
+
+## Enigma Company
+
+Enigma Company supplies the weapons ecosystem around Valkyrian ships: lance systems, shields, armor interfaces, ground weapons, armored vehicles, fighter systems, and shipboard armament. Its products are often specialized and expensive, but Valkyrian fire-control and flux architecture are built around them.
+
+## High-Tech Fabrication
+
+Valkyrian industry relies on large semi-autonomous industrial centers. These facilities produce hull structures, armor, engines, weapon housings, and electronics at a scale few independent powers can match.
+
+## Super-Capital Construction
+
+Building ships at Valkyrian super-capital scale is not feasible in most of the Persean Sector. The yards must be large enough to assemble the hull from the inside out, beginning around anti-gravity field generators that keep the incomplete structure from tearing itself apart under its own mass. Additional gravity-field systems are then used to shift the vessel's center of mass for rotation and handling, because its own thrusters cannot move it safely during construction.
+
+Super-capitals are primarily strategic deterrents. They are assigned to fleets only when their presence is necessary, because their supply and fuel requirements are extreme. Orken typically produces the hull, armor, and engines; Horizon completes interior systems and electronics; Enigma performs final weapons integration and inspection.
+
+## Lances and Shields
+
+"Lances" began as powerful laser weapons built into rifle-like housings and mounted to powered armor. Different variants were designed for different targets: rapid laser pulses for infantry and light vehicles, heavier pulses for armor and fortified targets.
+
+Valkyrian shield units are high-speed arm-mounted disks that generate pulse-deflection fields capable of turning aside most incoming fire. Later armor models incorporated auxiliary energy wings: paired frames carrying charged energy bodies that power armor and weapons and allow short bursts of assisted flight.

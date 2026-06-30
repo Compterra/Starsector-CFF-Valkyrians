@@ -1,0 +1,30 @@
+{
+  "id": "valkyrian",
+  "name": "Valkyrians",
+  "author": "Original author: ValkyriaL\nCurrent maintainer: Originem\nSprite remaster: Laomi\nAdditional support: FAX, Shadowlight",
+  "version": {
+    "major": 3,
+    "minor": 3,
+    "patch": 0
+  },
+  "description": "The Valkyrians are an independent military power that once held many of the Sector's uncharted worlds and systems. Their fleets favor lasers, missiles, and heavy gun batteries, backed by unusually large formations and rare super-capital hulls. They are a dangerous opponent; do not make an enemy of them unless you are ready for a serious war.",
+  "dependencies": [
+    {
+      "id": "lw_lazylib",
+      "name": "LazyLib"
+    },
+    {
+      "id": "MagicLib",
+      "name": "MagicLib"
+    },
+    {
+      "id": "shaderLib",
+      "name": "GraphicLib"
+    }
+  ],
+  "gameVersion": "0.97a-RC11",
+  "jars": [
+    "jars/Valkyrians.jar"
+  ],
+  "modPlugin": "data.scripts.VKSModPlugin"
+}

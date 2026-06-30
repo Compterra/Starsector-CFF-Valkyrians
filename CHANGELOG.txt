@@ -1,0 +1,18 @@
+# Valkyrians Changelog
+
+This translated root changelog consolidates the legacy Chinese update notes into an English-facing summary. The detailed legacy English changelog remains available at docs/Valkyrians_Changelog.txt.
+
+## Localization and Restoration Pass
+
+- Translated player-facing metadata, ship names, designations, manufacturers, fighter roles, weapon names, weapon tooltip roles, hullmod text, ship system names, blueprint package text, market condition text, mission briefings, mission UI labels, faction display names, channel names, and codex descriptions.
+- Reframed older lore notes into a cleaner Valkyrian faction background, with Orken Manufacturing Group, Horizon Shipyards, and Enigma Company presented as major industrial blocs.
+- Cleaned juvenile and translator-note style prose from public docs and mission text.
+- Standardized Valkyrian ship class terminology and retained the mod's core theme: a disciplined independent military power built around advanced lasers, missiles, heavy guns, carrier groups, and rare super-capital hulls.
+
+## Legacy Development Summary
+
+- Valkyrians received a dedicated star system and a reworked royal armada.
+- Added and revised several missions, including Chasing Memories, Kingsbane, Battle for Heaven's Gate, Past the Storm, Star Destroyer, and Unexpected Trouble.
+- Rebalanced Valkyrian weapons, fighters, point defense, cruise missiles, and lancer-family weapons across prior releases.
+- Added ShaderLib/GraphicsLib support, custom engine sounds, decorative lights, new hulls, new weapons, and remodeled ships over the original development cycle.
+- Removed obsolete variants, unused sounds, and old internal hull concepts from active gameplay.

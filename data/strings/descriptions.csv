@@ -1,0 +1,205 @@
+id,type,text1,text2,text3,text4,notes
+valk_azmodaeus,SHIP,"An experimental super-heavy fleet command ship, larger than anything the Valkyrian design bureaus had previously attempted. The Azmodaeus-class is treated as the apex of their super-capital program.
+
+The design followed a classified encounter with an alien titan in a distant system. Much of its armament and defensive architecture was adapted from technology recovered during that incident. The only confirmed completed hull was reportedly destroyed during the Battle of Heaven's Gate against a major Hegemony assault fleet.
+
+No wreckage has ever been recovered.",,,,
+,,,,,,
+valk_vatican_II,SHIP,"One of the largest super-battleships the Valkyrians have ever deployed to the front. Its massed weapons and layered defenses can dominate an entire battlespace.
+
+Unlike earlier designs, the Vatican Mk.II mounts a gate-grade hyperspace drive, allowing independent interstellar movement without relying on the Domain gate network.
+
+Its firepower is comparable to a fleet, but the design is not without flaws. Ammunition limits, strained flux conduits, and awkward firing arcs can all be exploited by a skilled opponent. Even so, in the hands of a prepared commander, it remains a terrifying flagship.",,,,
+,,,,,,
+valk_almire_III,SHIP,"The Almire Mk.III is the final assault-oriented branch of its line, emphasizing speed and overwhelming firepower.
+
+Originally conceived as a super battlecruiser, the design proved too compromised for its intended role. After several rounds of refit, much of its isolation armor was removed, the hyperspace plant was replaced with a more practical model, and the hull was rebuilt around aggressive movement and hard counter-fire.
+
+The result is a fast heavy battlecruiser able to support allies, answer electronic warfare, and challenge known capital ships despite a lighter defensive frame.",,,,
+,,,,,,
+valk_vatican_I,SHIP,"The first super-capital carrier built by Orken Manufacturing Group, able to disgorge immense fighter formations from six hangar decks at once.
+
+The claim that it was once the largest carrier in the Sector is not idle boasting. The project began decades ago during a period of supply shortages and strategic desperation, and its cost approached that of a super-battleship. Once commissioned, the Vatican Mk.I could lock down entire regions of space with fighters, bombers, and escort craft on short notice.
+
+Its own battleship-grade armament ensures that even fleets able to breach the fighter screen must still face a capital ship in its own right.",,,,
+,,,,,,
+valk_yoshura,SHIP,"A giant warship representing the Valkyrians' modern technical revolution, the Yoshura is almost unmatched in extended engagements. Enemies meeting one on patrol are advised to proceed carefully.
+
+The class was born from a need to replace aging super-capital hulls that no longer fit modern naval standards. The Yoshura was expanded from an older concept into something larger, tougher, and more self-sufficient than any contemporary Valkyrian battleship, complete with advanced command spaces, all-aspect ECM, improved shields, thick armor, and a powerful reactor.
+
+Known ships of the class include VKS Valensia, first and largest of the line; VKS Templar, built during the modernization period; VKS Exile, lost after a deep-space strike; and VKS Saya, the newest active hull, serving under Admiral Cassandra Everflame.",,,,
+valk_yoshura_prime,SHIP,"A prototype refit of a Yoshura variant, pushed beyond the already excessive limits of the class. It is widely regarded as the strongest known Yoshura hull, large and resilient enough to deserve the title of dreadnought. Further records remain classified.",,,,
+valk_yoshura_VI,SHIP,"The sixth major Yoshura refit miniaturizes the core hull plan and rebuilds it as a fleet carrier. Denser armor materials, more advanced sensor arrays, and high-precision fighter-routing systems allow it to overclock wing performance in a controlled manner.
+
+The Yoshura Mk.VI often serves beside Vatican Mk.I carriers in large carrier groups. Its record during the war against the Invaders made it one of the most successful Yoshura derivatives.",,,,
+valk_cherberos,SHIP,"The Cherberos was developed as a battlecruiser replacement for the old Yoshura Mk.I line. It trades some armor mass and heavy weapons for a lighter frame, higher speed, and better tactical response.",,,,
+valk_radiance,SHIP,"One of the most solid super-battleships ever designed by the Valkyrians, the Radiance has earned its reputation through repeated victories.
+
+Its fundamentals are almost without weakness. During border clashes with other Persean powers, Radiance-class captains recorded engagements against multiple enemy capitals at once and left several fleets crippled without requiring major support.
+
+Among Valkyrian-aligned mercenary commands, Radiance captains enjoy a prestige that makes even Paragon and Onslaught officers stand a little straighter.",,,,
+,,,,,,
+,,,,,,
+valk_elegy,SHIP,"When an Elegy is committed, the Valkyrians have chosen a desperate counterstroke. This siege ship is built around a heavy-cruiser concept but carries offensive power closer to a battleship.
+
+Compared with the Almire and Nirvana lines, the Elegy remains experimental and dangerous. Its attacks are high-risk and precisely timed, so it is often held in the final echelon as a decisive weapon.
+
+At the heart of the design is an incomplete Valhalla Core, a century of Valkyrian research condensed into a device still considered too unstable for general service.",,,,
+valk_nirvana_II,SHIP,"A next-generation concept cruiser, larger and more heavily armed than its predecessors. Classified as a super-armored cruiser, the Nirvana Mk.II is built to hunt heavy cruisers and punish any opponent that underestimates it.
+
+The navy debated its battlefield role for years. The Almire line already handled breakthrough assaults, while the Nirvana Mk.II offered a more measured answer: sustained pressure, strong protection, and a dedicated system for dueling ships of its own class.",,,,
+,,,,,,
+valk_sequence,SHIP,"The Sequence-class heavy carrier was intended as a modern replacement for several older Valkyrian carrier patterns. Mobile, economical, and flexible, it can support a varied fighter complement without the excesses of the super-carrier program.",,,,
+valk_nirvana_I,SHIP,"The first major Nirvana refit proved adaptable enough to become a mainstay of the Valkyrian Navy. It is now one of their most common cruiser hulls.
+
+The Nirvana family represents the heavy end of Valkyrian cruiser design: durable, flexible, and armed for sustained action. Unless assigned another mission, they usually form part of the fleet's attacking line.",,,,
+,,,,,,
+valk_almire_II,SHIP,"A newer Almire design built for the attack. Improved speed and firepower let it outrun the Nirvana line in offensive operations, and enemy captains have good reason to worry when one appears on sensors.
+
+Almire-class cruisers are lighter heavy cruisers focused on fast aggression and sudden bursts of fire. They often serve in the second line of a fleet formation, ready to exploit openings.",,,,
+,,,,,,
+valk_nirvana,SHIP,"The prototype of the Nirvana line. It is obsolete by modern Valkyrian standards, but still sees use in escort work and as a practical way to raise funds or maintain presence on quieter fronts.",,,,
+valk_almire_I,SHIP,"A cruiser that has been revised and re-rated many times over its service life. The Almire Mk.I can still fight beside the Nirvana line, though it now shows its age against modern designs.",,,,
+,,,,,,
+,,,,,,
+,,,,,,
+valk_herald,SHIP,"A stubborn support ship based on an Elysium-class destroyer hull. It can deploy shield drones and deliver missile salvos from range, making it frustrating to crack in defensive actions.",,,,
+valk_heron_b,SHIP,"A well-armed carrier designed to replace aging Valkyrian fleet carriers. Its oval frame maximizes armor efficiency, while strong logistics support lets it keep fighter groups in the air and provide heavy fire support for the ships protecting it.
+
+The Heron is one of the Valkyrians' most common hulls, rivaling the Elfheim destroyer in total production. Its point-defense suite can clear missile waves and hostile fighter formations while dispatching its own wings into the fight.",,,,
+,,,,,,
+valk_elfheim,SHIP,"A mainstay of the Valkyrian Navy. Its loadout changes with the mission, but its burst firepower has given it a harsh reputation among smaller ships.
+
+Because of its reliability and operating efficiency, large fleets often assign Elfheims to long-range missile support, skirmishing, or harassment duty.",,,,
+,,,,,,
+valk_eclair,SHIP,"A prototype destroyer from the Valkyrian modernization program. Complex, expensive, and still under evaluation, the Eclair shows what the navy wants its next generation of destroyers to become.",,,,
+valk_elysium,SHIP,"Built for fast strikes, the Elysium can punish enemies who dismiss it as merely a destroyer. Its combination of maneuverability and armor is alarming on a hull of this size.",,,,
+valk_valkyrie_b,SHIP,"Originally a troop transport, this early carrier experiment was rebuilt into a light carrier. Newer designs have surpassed it, but it remains an attractive option when budgets are tight.",,,,
+valk_tesladora_ii,SHIP,"Usually deployed around stations or key objectives, though some examples accompany fleets. Its heavy armor and strong shields allow it to stare down ships of its own class with unnerving confidence.",,,,
+valk_topaz,SHIP,A practical tanker built so Valkyrian fleets do not have to depend on civilian or foreign fuel craft. It carries enough reserves to support extended fleet operations.,,,,
+valk_emerald,SHIP,"If one Valkyrian freighter is considered truly indispensable, it is the Emerald. Reliable, spacious, and easy to integrate into military logistics, it is the quiet workhorse behind many deployments.",,,,
+,,,,,,
+,,,,,,
+valk_inquisitor,SHIP,"Developed alongside the Jenova, this heavy frigate uses oversized weapons to punish anything careless enough to let it close. Its main gun can threaten cruisers and even inattentive battleships.
+
+The design is awkward but potent: the main weapon hits hard, yet can only fire a few times before the ship must back off and vent. Numerous secondary mounts are devoted to point defense, extending its survival time in hostile space.",,,,
+valk_longinus,SHIP,"A reliable weapon platform with balanced offense and defense. Its long reach gives it a clear advantage over older patrol designs such as the Hound or Lasher, making it popular with new Valkyrian pilots.",,,,
+valk_yuusha_II,SHIP,The Yuusha design proved successful enough that only modest revisions were needed. A second gun mount and stronger engines make this refit a troublesome opponent.,,,,
+valk_yuusha,SHIP,"The smallest member of the Valkyrian frigate family. Fast, irritating, and surprisingly durable, it combines strong scouting equipment with enough firepower to feel like an evolved Hound.",,,,
+valk_tesladora,SHIP,"Usually deployed around stations or key objectives, though some examples accompany fleets. Its heavy armor and strong shields allow it to stare down ships of its own class with unnerving confidence.",,,,
+valk_jenova,SHIP,"The Jenova was created to solve a persistent Valkyrian weakness: the lack of a dedicated electronic-warfare support platform.
+
+It carries excellent defensive systems and a newly developed experimental ECM suite. Expensive as it is, large fleets that want reliable electronic support consider the Jenova worth the berth.",,,,
+valk_ilena,SHIP,One of the most agile members of the Valkyrian frigate family. High-end teleportation systems let the Ilena appear where enemies least want it to be.,,,,
+,,,,,,
+,,,,,,
+valk_infinity,SHIP,"A prototype strikecraft built to gain any possible edge in battle, armed with heavy weapons and a reactor related to the Excalibur's experimental plant.
+
+Its rushed development made it extremely expensive to build and maintain. Twin laser repeaters and a forward shock cannon provide formidable firepower, but the craft is large and turns poorly.",,,,
+valk_excalibur,SHIP,"One of Orken Manufacturing Group's most ambitious light combat craft. Advanced weapons, defenses, shields, power grid, and reactor systems are fused into a design sharp enough to justify the name Excalibur.
+
+Its most notable feature is an antimatter reactor capable of dissipating hard flux, a capability far beyond normal fighter engineering.",,,,
+valk_firefly,SHIP,"An advanced modern fighter that relies on speed and high-grade weapons. A new gatling laser and paired laser pods let the Firefly slip through fighter screens and light point-defense fire.
+
+Its weakness is poor turning performance; the lightweight frame that gives it speed also makes it vulnerable when caught by surprise.",,,,
+valk_ancord,SHIP,The original Ancord design was cancelled during modernization and replaced by a new craft bearing the same name. The current Ancord is a feared missile bomber.,,,,
+valk_helia,SHIP,A light combat craft designed to support larger battles and conduct rapid strikes against enemy formations. Improved power and engines let Helia wings sweep across the battlespace and threaten a wide range of targets.,,,,
+valk_azgard,SHIP,"A mainline Valkyrian fighter. Twin laser cannons give it useful striking power, while instant-response lasers help protect it from interceptors and incoming missiles.",,,,
+valk_lightning,SHIP,"A high-speed interceptor with two large nose cannons. Its wings can extend for atmospheric flight, a useful feature for forces that expect to operate near planets as well as in space.",,,,
+valk_sahara,SHIP,"A large, slow bomber wing carrying a two-bomb payload. It can destroy almost any target it reaches, though poor maneuverability means it does not always get the chance.",,,,
+valk_morgiana,SHIP,"Slightly larger than a Talon and far deadlier, the Morgiana is designed to launch from almost any carrier or planetary facility at a moment's notice.",,,,
+,,,,,,
+,,,,,,
+,,,,,,
+valk_ilc,WEAPON,A powerful energy cannon that projects three dense particle bursts in rapid succession over long range.,,,,
+valk_ilc_II,WEAPON,"A high-output refinement of the Redemption laser cannon, compressing its full force into a single decisive shot.",,,,
+valk_quadheavymg,WEAPON,"A vicious quad heavy machine gun with an overwhelming rate of fire. Ships carrying it are difficult targets for fighters and missiles.
+
+The mount combines four heavy machine guns with pneumatic loading and liquid cooling, hurling fragmentation rounds fast enough to carve apart strikecraft.",,,,
+,,,,,,
+valk_dsc,WEAPON,A compact machine gun firing large-caliber sabot rounds at relativistic velocity. Its penetrator effect is especially punishing against high-strength shields.,,,,
+valk_irpdburst,WEAPON,"A modest but highly effective burst point-defense laser system, commonly seen on Valkyrian military hulls.",,,,
+valk_ibcm,WEAPON,"A Hurricane-style launcher fitted with IBCM kinetic warheads, designed to hit shield systems with heavy pressure.",,,,
+valk_heavy_assault_cannon,WEAPON,"Built alongside the Vatican Mk.III program, this enormous weapon has destructive power beyond the defenses of most ships.
+
+The design is a simple triple 350-420mm cannon with exceptional recoil force and range, capable of crippling enemy hulls in only a few hits.",,,,
+valk_antiproton_laser,WEAPON,A large-ship weapon meant to deliver medium- to long-range burst fire. Its sudden output can destroy smaller ships outright and place severe flux pressure on enemy capitals.,,,,
+valk_plasma_laser,WEAPON,"A medium cannon developed after studying Blackrock shard-cannon fragments and applying Valkyrian high-tech methods.
+
+The cannon itself is not especially destructive; the unstable plasma it fires is the true danger, frequently producing secondary effects and heavy additional damage on impact.",,,,
+valk_bcnn,WEAPON,"A versatile kinetic weapon often used to suppress targets at long range. Its design relies on the Brynhildr rotary core, so installation on non-Valkyrian ships is not recommended.",,,,
+,,,,,,
+,,,,,,
+valk_ballista,WEAPON,An Annihilator-derived rocket upgraded to use plasma as both charge and fuel. Improved guidance makes it harder for point defense to intercept.,,,,
+valk_wraith,WEAPON,A heavy missile designed to kill large targets quickly at extreme range. Its broad fins give it enough authority to maneuver like a more conventional missile.,,,,
+valk_spectre,WEAPON,A powerful missile developed for long-range capital engagements. It is usually mounted on smaller vessels in a support role.,,,,
+valk_phantasm,WEAPON,A powerful missile developed for long-range capital engagements. It is usually mounted on smaller vessels in a support role.,,,,
+valk_shadow,WEAPON,"A powerful cruise missile adapted for twin launchers. Its warhead is slightly reduced to fit the paired system, but the burst potential remains severe.",,,,
+valk_sunfury,WEAPON,"An advanced torpedo with a high-explosive charge and heavily armored penetrator head. Meeting one head-on is usually catastrophic.
+
+Developed late in the modernization program as a capital killer, the Sunfury uses a massive plutonium warhead package capable of gutting hardened targets. Its hardened titanium nose is designed to bite deep into armor before detonation, with additional casing layers built to keep the torpedo intact through interception attempts.",,,,
+valk_scorpionpod,WEAPON,A lightweight MIRV warhead mounted on a Harpoon-derived engine. It trades some damage for maneuverability and carries a small capacitor for EMP effects. The pod version carries a deeper magazine.,,,,
+valk_scorpion,WEAPON,A lightweight MIRV warhead mounted on a Harpoon-derived engine. It trades some damage for maneuverability and carries a small capacitor for EMP effects.,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+valk_hyperbeam,WEAPON,A heavy beam cannon that uses exotic matter to drive intense output. Its instantaneous stream of superheated particles can melt armor across the impact zone.,,,,
+,,,,,,
+valk_imbc,WEAPON,An ultra-heavy laser system able to project a dense antiproton stream over long range. Unshielded targets suffer catastrophic damage.,,,,
+valk_light_antimatter_laser,WEAPON,"A smaller version of the heavy antiproton beam cannon. It keeps the family's long reach and high damage, and represents an early official iteration of the technology.",,,,
+valk_irdriver,WEAPON,A small laser developed during the modernization program to replace outdated machine guns on strikecraft with a more capable weapon.,,,,
+valk_ptr_laser,WEAPON,"A powerful laser cannon from the late modernization program, replacing older fighter weapons and giving Valkyrian craft better performance under equal conditions.
+
+The PTR combines a reinforced repeater, four rotary particle injection pumps, and additional accelerators. Its low flux draw allows prolonged fire if supplied by a strong enough power plant, though maintenance crews strongly advise captains not to test that limit.",,,,
+valk_xr_repeater,WEAPON,"A recalibrated PTR laser repeater that fires plasma packets guided by X-ray tracers. The resulting thermal damage can leave severe aftereffects on struck vessels.
+
+In practical terms, the X-Ray ATC behaves like a miniature pulse laser cannon firing plasma ammunition.",,,,
+,,,,,,
+valk_cockatrice,WEAPON,"Named for the mythic creature said to kill with a glance, this rapid-fire gun is mounted in heavy fighter weapon pods. Its heavy ammunition can pierce armor and tear through fighter structure.",,,,
+valk_irpdcannon,WEAPON,"A streamlined Vulcan derivative fitted with laser media and energy capacitors. Accurate, efficient, and inexpensive, it is widely respected as a point-defense weapon.",,,,
+valk_nxk_pd,WEAPON,"The NX-K is an advanced gamma-ray flak system, providing exceptional defense against missile saturation and fighter-heavy tactics.",,,,
+valk_ether_driver,WEAPON,"An experimental cannon that fires an aether projectile wrapped in exotic matter, passing through shields to strike armor directly.
+
+The Ether Driver family is reverse-engineered from captured alien technology. Its aether payload disrupts ion fields and destroys materialized energy, while the exotic-matter shell follows a fraction of a second behind to drive the effect home.",,,,
+valk_geironul,WEAPON,"A high-performance cannon based on the Infernium gun. Each shell carries a small amount of unstable antimatter; after impact, containment failure causes a secondary explosion that is especially harsh against lighter armor.",,,,
+,,,,,,
+valk_ice_lance,WEAPON,"A derivative of the Ether Driver focused on disabling electronics rather than raw damage.
+
+Its ammunition can still bypass shields. The Ice Lance uses a cylindrical disruption bolt while storing the aether separately so it does not destroy the projectile from within.",,,,
+,,,,,,
+valk_twin_hiir_laser,WEAPON,"A large-caliber laser cannon with refined emitters and lenses, able to deal sustained damage at long range. Continuous fire causes accuracy to degrade sharply.",,,,
+,,,,,,
+valk_lightlancer,WEAPON,An energy counterpart to spike weapons of the same size. Its projectiles deliver strong EMP effects and are meant to handle many target types. The small-caliber design keeps accuracy high.,,,,
+,,,,,,
+valk_heavylancer,WEAPON,An energy counterpart to spike weapons of the same size. Its projectiles deliver strong EMP effects and are meant to handle many target types. The medium-caliber design provides a larger burst window than the light model.,,,,
+,,,,,,
+valk_ultraheavylancer,WEAPON,A heavy energy counterpart to spike weapons of the same size. Its superheated projectiles emphasize structural damage while retaining the family's flexible target profile.,,,,
+,,,,,,
+,,,,,,
+valk_ecm_jammer,SHIP_SYSTEM,An advanced electronic-warfare system that reduces the ship's effective detection footprint on hostile radar by 2000 SU.,Close Support,,,
+valk_chargingjets,SHIP_SYSTEM,Increases maximum speed and maneuverability while striking enemy ships and missiles ahead with EMP arcs.,Maneuvering,Increases maximum speed and maneuverability while striking enemy ships and missiles ahead with EMP arcs.,,
+valk_overcharge,SHIP_SYSTEM,"Overclocks the ship, increasing weapon damage and maximum speed by up to 25%, and flux dissipation and maneuverability by up to 50%. When the system ends, the same attributes are reduced by 100% for a short time.",Assault,25%,50% | 100%,
+valk_valiant_defense,SHIP_SYSTEM,"Releases safety protocols and restraint cores, greatly improving ship performance and repairing hull integrity. Benefits include flux dissipation, maximum speed, maneuverability, weapon damage, shield resistance, and more. Any damage taken by the ship reduces this system's cooldown.",Assault,,,
+valk_inferniumdrive,SHIP_SYSTEM,"Injects volatile accelerants into the engines, greatly increasing drive output.",Assault,,,
+valk_phaseteleporter,SHIP_SYSTEM,"A Valkyrian spatial jump system, functionally similar to the Hyperion-class teleporter.",Maneuvering,,,
+valk_burstdrive,SHIP_SYSTEM,"Instantly accelerates the engines, hurling the ship forward at extreme speed. Severe impact can flame out the engines.",Maneuvering,"Instantly accelerates the engines, hurling the ship forward at extreme speed. Severe impact can flame out the engines.",,
+,,,,,,
+valkyrian,FACTION,"The Valkyrians are an independent military power in this region of the Sector, descended from a Domain-era frontier polity in a poorly charted corner of space. Years of private research into recovered Domain core technologies allowed them to arm themselves with increasingly sophisticated ships and weapons, eventually becoming a respected and dangerous force in naval engineering.
+
+But simple blueprint study was never enough. As advanced technologies disappeared into vaults, black sites, and private arsenals, the Valkyrians turned to bolder methods: recovery expeditions, clandestine acquisition, and weapons programs that blurred the line between restoration and ambition.
+
+Today their fleets are disciplined, heavily armed, and deeply proud. Their super-capital traditions are expensive and politically charged, but few rivals doubt the results.",,,,
+valk_boostrefit,SHIP_SYSTEM,"Reduces carrier readiness decay and fighter replacement time by one third, while doubling the speed and maneuverability of returning fighters. Activation generates heavy flux.",Assault,,,
+,,,,,,
+valk_planet_enigma_i,CUSTOM,"The capital world of the Valkyrians and the seat from which royal decrees are issued across their territory.
+
+Before the Collapse, entrenched mineral concerns left behind a vast industrial foundation. Orken Manufacturing Group, Enigma Company, and a web of smaller firms grew out of that legacy, forming the backbone of the modern Valkyrian economy. Capital recovered during the modernization period further accelerated development.
+
+As the primary forge-world of Valkyrian power, Enigma I is never quiet. Orbital slips cycle warships through refit queues, corporate delegations crowd the secure concourses, and naval officers treat the planet as both arsenal and throne room.","The capital's public face is polished and ceremonious, but the machinery beneath it is all contracts, security screenings, and quiet industrial pressure.",,,
+valk_station_enigma_i,CUSTOM,"A high-orbit defense installation suspended above Enigma I. Unlike the sky fortresses assigned to close planetary defense, this station contains extensive manufacturing facilities and can sustain itself for long periods. Its vast berths hold capital ships, and during the Valkyrians' age of expeditionary glory it watched generations of fleets depart for distant campaigns.",,,,
+valk_planet_enigma_i_moon,CUSTOM,"Bleak winds scour this disorderly moon, and few ships have approached it in years. On Enigma I, no one gives the same explanation twice.
+
+The latest survey recorded in the Valkyrian royal archives dates back fourteen years. Investigators found an unsettling trace in the ruins: the remains of unknown organisms arranged in patterns too deliberate to dismiss, perhaps connected to one of the Valkyrians' oldest and most feared enemies.",,,,
+valk_planet_enigma_ii,CUSTOM,"A Valkyrian mining world whose importance has grown as the faction's outer holdings contracted during modernization.
+
+Rich mineral seams and volatile geysers along the equator feed the endless appetite of Valkyrian fleets and war industry. Unlike the polished capital of Enigma I, most of the population here lives by hard labor, keeping the machinery of the state supplied from below.",,,,

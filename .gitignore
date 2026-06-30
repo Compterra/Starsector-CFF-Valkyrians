@@ -1,0 +1,22 @@
+# Windows/editor noise
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.orig
+*~
+
+# Local logs and generated crash dumps
+*.log
+*.stackdump
+hs_err_pid*.log
+
+# Build scratch output
+build/
+out/
+target/
+*.class
+
+# Local archive leftovers
+*.rar
+*.7z

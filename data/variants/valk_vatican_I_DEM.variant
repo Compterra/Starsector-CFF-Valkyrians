@@ -1,0 +1,91 @@
+{
+    "displayName": "DEM",
+    "fluxCapacitors": 33,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "valk_vatican_I",
+    "hullMods": [
+        "expanded_deck_crew",
+        "missleracks",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "valk_vatican_I_DEM",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "gorgonpod",
+                "WS0010": "gorgonpod",
+                "WS0011": "gorgonpod",
+                "WS0012": "gorgonpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "gorgon",
+                "WS0002": "gorgon",
+                "WS0003": "gorgon",
+                "WS0004": "gorgon",
+                "WS0005": "gorgon",
+                "WS0006": "gorgon",
+                "WS0007": "gorgon",
+                "WS0008": "gorgon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0013": "dragon",
+                "WS0014": "dragon",
+                "WS0015": "dragon",
+                "WS0016": "dragon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0037": "valk_quadheavymg",
+                "WS0038": "valk_quadheavymg",
+                "WS0047": "valk_quadheavymg",
+                "WS0048": "valk_quadheavymg",
+                "WS0051": "valk_quadheavymg",
+                "WS0052": "valk_quadheavymg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "valk_irpdcannon",
+                "WS0018": "valk_irpdcannon",
+                "WS0019": "valk_nxk_pd",
+                "WS0020": "valk_nxk_pd",
+                "WS0021": "valk_nxk_pd",
+                "WS0022": "valk_nxk_pd",
+                "WS0025": "valk_irpdcannon",
+                "WS0026": "valk_irpdcannon",
+                "WS0029": "valk_irpdcannon",
+                "WS0030": "valk_irpdcannon",
+                "WS0035": "valk_irpdcannon",
+                "WS0036": "valk_irpdcannon",
+                "WS0049": "valk_irpdcannon",
+                "WS0050": "valk_irpdcannon"
+            }
+        }
+    ],
+    "wings": [
+        "longbow_wing",
+        "longbow_wing",
+        "longbow_wing",
+        "longbow_wing",
+        "longbow_wing",
+        "longbow_wing"
+    ]
+}
