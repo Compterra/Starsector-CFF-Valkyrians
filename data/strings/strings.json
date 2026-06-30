@@ -33,7 +33,7 @@
     "skogul_desc0": "Performance bonus: %s",
     "skogul_desc1": "Minimum crew requirement + %s",
     "skogul_desc2": "Deployment and monthly maintenance cost + %s",
-    "skogul_remove_penalty": "Removes side effects",
+    "skogul_remove_penalty": "removes maintenance, deployment, and crew penalties",
     "hc_bonus_factor_heading": "Bonus factor",
     "hc_bonus_factor_content": "A Valkyrian capital ship always receives @[(positive)100%] of its own bonus.\nBy hull size, the maximum bonus is reached at @[%s] deployment points or higher.\nFor fighter wings, the maximum bonus is reached at @[%s] OP or higher.\nNon-Valkyrian ships count their deployment points or OP as @[(negative)half] for this calculation.",
     "hc_bonus_detail_heading": "Bonus details",

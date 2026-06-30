@@ -1,8 +1,8 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
-Recon System Enhancement,valk_reconoptimization,1,,Orken Manufacturing Group,engines,Scouting,5000,,,,8,0,0,0,data.hullmods.valk_ReconOptimization,"Switches the ship into reconnaissance configuration, increasing its %s sensor profile and maneuverability at the cost of reducing all weapon damage by %s.
+Recon System Enhancement,valk_reconoptimization,1,,Orken Manufacturing Group,engines,Scouting,5000,,,,8,0,0,0,data.hullmods.valk_ReconOptimization,"Switches the ship into reconnaissance configuration, increasing its %s sensor range and maneuverability at the cost of reducing all weapon damage by %s.
 
 Can only be installed on frigates.",Improves mobility and reconnaissance at the cost of weapon damage.,,graphics/hullmods/valk_recon_optimization.png
-Skogul Modernization Package,valk_skogulmodernization,2,,Orken Manufacturing Group,special,Systems,12000,,,,5,10,15,25,data.hullmods.valk_SkogulModernization,"A rigorous Valkyrian refit doctrine that raises overall ship performance, including flux handling, hull endurance, speed, maneuvering, and weapon output.",Improves ship performance at the cost of higher supply use.,"Performance bonus increased to %s, and %s.",graphics/hullmods/valk_skogul_modernization.png
+Skogul Modernization Package,valk_skogulmodernization,2,,Orken Manufacturing Group,special,Systems,12000,,,,5,10,15,25,data.hullmods.valk_SkogulModernization,"A rigorous Valkyrian refit doctrine that raises overall ship performance, including flux handling, hull endurance, speed, maneuvering, and weapon output.",Improves ship performance at the cost of higher supply use.,"Performance bonus increased to %s; %s.",graphics/hullmods/valk_skogul_modernization.png
 Ward Plating,valk_fluxplating,,,Orken Manufacturing Group,,Defensive,,,TRUE,,0,0,0,0,data.hullmods.valk_FluxPlating,"Valkyrian super-capital hulls rely on advanced electroplated armor layers that render critical systems almost immune to EMP disruption.
 
 EMP damage taken reduced by %s.",Greatly reduces EMP damage.,,graphics/hullmods/valk_em_ward_plating.png
@@ -27,20 +27,20 @@ Damage to destroyers increased by %s.
 Ballistic and energy weapon range increased by %s.",Specialized against cruisers.,,graphics/hullmods/valk_cruiserhunter.png
 Orken Retrofit - Peak Fire,valk_peakfire,2,,Orken Manufacturing Group,offensive,Weapons,10000,,,,3,6,10,15,data.hullmods.valk_PeakFire,"One of Orken Manufacturing Group's proprietary Valkyrian refit patterns, tailored for captains who believe there is no such thing as too many turrets.
 
-Sustained fire from non-PD weapons charges an adaptive beam-energy matrix that improves weapon performance.
+Sustained fire from non-missile, non-PD weapons charges an adaptive beam-energy matrix that improves weapon performance.
 At maximum charge, ballistic and energy weapons gain %s rate of fire and flux-cost bonuses. These bonuses peak after firing for %s of the ship's peak operating time, then decay at %s times the charge rate once weapons stop firing.",Sustained fire improves weapon tempo and efficiency.,Peak-time requirement reduced to %s of normal.,graphics/hullmods/valk_peakfire.png
 Orken Retrofit - Flux Fog,valk_fluxfog,2,,Orken Manufacturing Group,special,Special,7500,,,,3,6,10,15,data.hullmods.valk_FluxFog,"One of Orken Manufacturing Group's proprietary Valkyrian refit patterns.
 
 The system keeps flux contained around the hull instead of letting it bleed away, adapting to local constants until the ship's structure hardens under stress.
 
-After flux remains above %s for more than %s of peak operating time, the ship gains an additional %s armor and hull damage resistance.",Maintained high flux improves durability.,Peak-time requirement reduced to %s of normal.,graphics/hullmods/valk_fluxfog.png
+After the ship spends cumulative time above %s flux totaling more than %s of peak operating time, it gains an additional %s armor and hull damage resistance.",Maintained high flux improves durability.,Peak-time requirement reduced to %s of normal.,graphics/hullmods/valk_fluxfog.png
 Orken Retrofit - Redsteel Armor,valk_redarmor,2,,Orken Manufacturing Group,defensive,Special,8000,,,,3,6,10,15,data.hullmods.valk_RedArmor,"One of Orken Manufacturing Group's proprietary Valkyrian refit patterns, issued to captains who prefer to fight on the knife edge.
 
 Under the original protocol, armor damage is linked directly into the power grid:
-- Damage stimulates flux dissipation efficiency for up to %s seconds
+- Recent armor damage stimulates flux dissipation efficiency for up to %s second
 - Dissipation bonus scales linearly between %s and %s
 - Bonus reaches maximum when a single damage event exceeds %s of armor value
-- If shields were down before armor was damaged, the ship also gains hard-flux dissipation while shields are up, up to %s",Improves high-flux combat resilience.,Flux dissipation bonus cap adjusted to %s.,graphics/hullmods/valk_redarmor.png
+- If shields were down before armor was damaged, the ship also gains hard-flux dissipation while shields are up, up to %s",Improves high-flux combat resilience.,Flux dissipation bonus cap increased to %s.,graphics/hullmods/valk_redarmor.png
 Holy Covenant Decisive Doctrine,valk_holycovenant,,,Orken Manufacturing Group,,Systems,,,TRUE,,0,0,0,0,data.hullmods.valk_HolyCovenant,"A capital-fleet doctrine of the Valkyrians. The great ships that cross the battlefield dominate through more than technical superiority; they impose a psychological gravity of their own.
 
 Valkyrian capital ships grant bonuses to allied ships and fighter wings within %s range, including themselves. Higher deployment point or OP cost increases the strength of the benefit. These bonuses can stack, but are capped.",Valkyrian capitals empower nearby allies.,,graphics/hullmods/valk_holycovenant.png

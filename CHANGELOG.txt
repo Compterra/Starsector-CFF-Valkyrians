@@ -2,6 +2,11 @@
 
 This translated root changelog consolidates the legacy Chinese update notes into an English-facing summary. The detailed legacy English changelog remains available at docs/Valkyrians_Changelog.txt.
 
+## 3.3.10
+
+- Audited custom weapon and hullmod text against their actual scripts and CSV stats.
+- Clarified Recon System Enhancement, Skogul S-mod effects, Peak Fire charging rules, Flux Fog activation timing, Redsteel Armor S-mod effects, and Sunfury torpedo blast radius wording.
+
 ## 3.3.9
 
 - Polished mission briefings, quest dialogue, blueprint item text, and several codex descriptions for more natural English prose while preserving the original lore beats.
