@@ -3,8 +3,8 @@
     "engineColor": [175, 50, 50, 175],
     "contrailParticleSizeMult": 6,
     "contrailParticleDuration": 1.25,
-    "contrailMaxSpeedMult": 0.5f,
-    "contrailAngularVelocityMult": 0f,
+    "contrailMaxSpeedMult": 0.5,
+    "contrailAngularVelocityMult": 0,
     "contrailColor": [175, 125, 125, 25],
     "type": "GLOW" # GLOW or SMOKE
   },

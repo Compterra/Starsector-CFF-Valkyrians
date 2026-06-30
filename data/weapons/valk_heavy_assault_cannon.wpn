@@ -12,9 +12,9 @@
 	"renderHints":[RENDER_BARREL_BELOW],
 	"glowColor":[255,165,30,175],
 	"turretOffsets":[25, -4.5, 25, 0, 25, 4.5],
-	"turretAngleOffsets":[0, 0],
+	"turretAngleOffsets":[0, 0, 0],
 	"hardpointOffsets":[37, -4.5, 37, 0, 37, 4.5],
-	"hardpointAngleOffsets":[0, 0],
+	"hardpointAngleOffsets":[0, 0, 0],
 	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
 	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
 	"muzzleFlashSpec":{"length":95.0,   # only used if animationType = MUZZLE_FLASH

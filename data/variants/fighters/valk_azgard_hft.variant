@@ -16,11 +16,6 @@
     },
     {
       "autofire": true,
-      "mode": "ALTERNATING",
-      "weapons": {}
-    },
-    {
-      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0003": "valk_irpdburst"

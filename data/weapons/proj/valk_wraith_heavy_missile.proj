@@ -9,7 +9,7 @@
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[255,100,100,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":100, # purely visual
-	"explosionSpec":{"duration":0.25f, # not visual
+	"explosionSpec":{"duration":0.25, # not visual
 					 "radius":50,
 					 "coreRadius":25, # full damage within core radius
 					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
@@ -33,8 +33,8 @@
                                             "contrailWidthMult":2,
                                             "contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
                                             "contrailMinSeg":15, # min segment length, in pixels
-                                            "contrailMaxSpeedMult":1f,
-                                            "contrailAngularVelocityMult":1f,
+                                            "contrailMaxSpeedMult":1,
+                                            "contrailAngularVelocityMult":1,
                                             "contrailColor":[150,75,75,75],
                                             "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
                                             },

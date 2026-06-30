@@ -11,9 +11,9 @@
 	"renderHints":[RENDER_BARREL_BELOW],
 	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
 	"turretOffsets":[17, -3, 17, -7, 17, 3, 17, 7],
-	"turretAngleOffsets":[0, 0],
+	"turretAngleOffsets":[0, 0, 0, 0],
 	"hardpointOffsets":[25, -3, 25, -7, 25, 3, 25, 7],
-	"hardpointAngleOffsets":[0, 0],
+	"hardpointAngleOffsets":[0, 0, 0, 0],
 	"specialWeaponGlowWidth":15,
 	"specialWeaponGlowHeight":25,
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.

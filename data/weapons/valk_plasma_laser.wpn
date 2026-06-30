@@ -16,9 +16,9 @@
 	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
 	"renderHints":[RENDER_BARREL_BELOW],
 	"turretOffsets":[21, -4, 21, 4],
-	"turretAngleOffsets":[0],
+	"turretAngleOffsets":[0, 0],
 	"hardpointOffsets":[28, -4, 28, 4],
-	"hardpointAngleOffsets":[0],
+	"hardpointAngleOffsets":[0, 0],
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"GLOW_AND_FLASH",
 	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
