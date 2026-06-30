@@ -2,6 +2,11 @@
 
 This translated root changelog consolidates the legacy Chinese update notes into an English-facing summary. The detailed legacy English changelog remains available at docs/Valkyrians_Changelog.txt.
 
+## 3.3.11
+
+- Polished weapon codex descriptions for the cruise missile and GR Lance families so each entry has a clearer role and lore identity.
+- Replaced generic weapon role labels with more specific refit/codex roles for several fighter, beam, missile, and heavy artillery weapons.
+
 ## 3.3.10
 
 - Audited custom weapon and hullmod text against their actual scripts and CSV stats.
