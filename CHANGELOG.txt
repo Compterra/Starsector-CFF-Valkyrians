@@ -2,6 +2,11 @@
 
 This translated root changelog consolidates the legacy Chinese update notes into an English-facing summary. The detailed legacy English changelog remains available at docs/Valkyrians_Changelog.txt.
 
+## 4.0.1
+
+- Removed the old Valkyrian-only portrait set from the faction and player portrait lists.
+- Switched Valkyrian generated officers to vanilla human portrait pools by default, avoiding gender-mismatched missing portrait references.
+
 ## 4.0.0
 
 - Updated the mod for Starsector 0.98a-RC8 as a restoration release.
