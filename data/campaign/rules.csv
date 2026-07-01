@@ -4,7 +4,7 @@ $valkft_stage == 0","ShowPersonVisual
 $talkedTo = true
 Highlight ""Yoshura-class""","You open a comm channel and faintly hear soldiers reporting to a superior. When the image resolves, the woman before you is wearing a general's insignia.
 
-""The truth,"" General $personName says, noting your surprise, ""is that our previous target is already gone. The problem now is procurement: a large armament order, and not one I can place through official channels. Bring me three mothballed Yoshura-class capital ships by whatever means you find acceptable. Are you interested?""
+""The truth,"" General $personName says, noting your surprise, ""is that our previous target is already gone. The problem now is procurement: an old Yoshura-pattern capital, mothballed and off the books. I cannot place that order through official channels, and I cannot have my own staff asking why I need it. Bring me one suitable hull by whatever lawful or discreet means you find acceptable. Valkyrian military markets, cleared procurement desks, and rare recovery work are your best leads. Are you interested?""
 
 You take a moment to consider the unusual commission.","0:valkft_accept:Accept the commission
 1:cutCommLink:""Forget it."" Cut the comm link",,

@@ -1,6 +1,6 @@
 # Valkyrians
 
-Current version: `4.0.1` for Starsector `0.98a-RC8`.
+Current version: `4.0.2` for Starsector `0.98a-RC8`.
 
 A restored and polished release of the Valkyrians faction mod for modern Starsector. The Valkyrians are an independent military power descended from a Domain-era frontier state, fielding disciplined fleets built around advanced lasers, missiles, heavy gun batteries, carrier formations, and rare super-capital hulls.
 

@@ -2,6 +2,12 @@
 
 This translated root changelog consolidates the legacy Chinese update notes into an English-facing summary. The detailed legacy English changelog remains available at docs/Valkyrians_Changelog.txt.
 
+## 4.0.2
+
+- Reworked the Fearless Tour procurement step to require one mothballed Yoshura-pattern capital instead of three rare battleships.
+- Added clearer quest guidance for acceptable Yoshura hulls and likely acquisition routes.
+- Removed an unused internal quest test hook from the shipped runtime class.
+
 ## 4.0.1
 
 - Removed the old Valkyrian-only portrait set from the faction and player portrait lists.
