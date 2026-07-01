@@ -1,7 +1,6 @@
 package data.missions.chasingmemories;
 
 import com.fs.starfarer.api.combat.BattleObjectiveAPI;
-import com.fs.starfarer.api.campaign.CargoAPI.CrewXPLevel;
 import com.fs.starfarer.api.fleet.FleetGoal;
 import com.fs.starfarer.api.fleet.FleetMemberType;
 import com.fs.starfarer.api.mission.FleetSide;
@@ -20,17 +19,17 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		// Set a small blurb for each fleet that shows up on the mission detail and
 		// mission results screens to identify each side.
-		api.setFleetTagline(FleetSide.PLAYER, "Kanako and her Nirvana");
+		api.setFleetTagline(FleetSide.PLAYER, "Kanako and Her Stolen Nirvana");
 		api.setFleetTagline(FleetSide.ENEMY, "Valkyrian Elite Patrol");
 		
 		// These show up as items in the bulleted list under 
 		// "Tactical Objectives" on the mission detail screen
-		api.addBriefingItem("Escape!");
-		api.addBriefingItem("If the destroyers catch you, it is over. Believe it or not.");
+		api.addBriefingItem("Escape the patrol before it can pin you down.");
+		api.addBriefingItem("Avoid decisive contact with the destroyer screen.");
 		
 		// Set up the player's fleet.  Variant names come from the
 		// files in data/variants and data/variants/fighters
-		api.addToFleet(FleetSide.PLAYER, "valk_nirvana_II_A", FleetMemberType.SHIP, "VKS Chasing Memories", true, CrewXPLevel.ELITE);
+		api.addToFleet(FleetSide.PLAYER, "valk_nirvana_II_A", FleetMemberType.SHIP, "VKS Chasing Memories", true);
 		
 		// Mark both ships as essential - losing either one results
 		// in mission failure. Could also be set on an enemy ship,
@@ -39,15 +38,15 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		//api.defeatOnShipLoss("HSS Abel");
 		
 		// Set up the enemy fleet.
-		// It's got more ships than the player's, and are stronger, but hey they are computer controled.
+		// It's got more ships than the player's, and are stronger, but hey they are computer controlled.
 		// api.addToFleet(FleetSide.ENEMY, "onslaught_Reconditioned", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "valk_eclair_A", FleetMemberType.SHIP, true, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_elfheim_A", FleetMemberType.SHIP, true, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_inquisitor_A", FleetMemberType.SHIP, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_jenova_ECM", FleetMemberType.SHIP, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_jenova_ECM", FleetMemberType.SHIP, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_yuusha_A", FleetMemberType.SHIP, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_yuusha_A", FleetMemberType.SHIP, false, CrewXPLevel.ELITE);
+		api.addToFleet(FleetSide.ENEMY, "valk_eclair_A", FleetMemberType.SHIP, true);
+		api.addToFleet(FleetSide.ENEMY, "valk_elfheim_A", FleetMemberType.SHIP, true);
+		api.addToFleet(FleetSide.ENEMY, "valk_inquisitor_A", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_jenova_ECM", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_jenova_ECM", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_yuusha_A", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_yuusha_A", FleetMemberType.SHIP, false);
 		
 		
 		// Set up the map.

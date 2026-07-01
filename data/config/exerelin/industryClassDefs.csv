@@ -1,0 +1,2 @@
+id,name,class,priority,special,requiredMod,notes
+valk_war_coordination_bureau,Orken-Enigma War Coordination Bureau,data.scripts.world.industry.ValkWarCoordinationBureauSeed,0,TRUE,nexerelin,Seed-only generator for Valkyrian random-sector HQ structure.

@@ -16,6 +16,7 @@ build/
 out/
 target/
 *.class
+_audit/
 
 # Local archive leftovers
 *.rar

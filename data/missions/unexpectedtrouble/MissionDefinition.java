@@ -1,7 +1,6 @@
 package data.missions.unexpectedtrouble;
 
 import com.fs.starfarer.api.combat.BattleObjectiveAPI;
-import com.fs.starfarer.api.campaign.CargoAPI.CrewXPLevel;
 import com.fs.starfarer.api.fleet.FleetGoal;
 import com.fs.starfarer.api.fleet.FleetMemberType;
 import com.fs.starfarer.api.mission.FleetSide;
@@ -20,39 +19,39 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		// Set a small blurb for each fleet that shows up on the mission detail and
 		// mission results screens to identify each side.
-		api.setFleetTagline(FleetSide.PLAYER, "Valkyrian Fourth Front Fleet");
+		api.setFleetTagline(FleetSide.PLAYER, "Valkyrian Fourth Front Escort Group");
 		api.setFleetTagline(FleetSide.ENEMY, "Pirate Base Fleet");
 		
 		// These show up as items in the bulleted list under 
 		// "Tactical Objectives" on the mission detail screen
-		api.addBriefingItem("Defeat the pirate base and its fleet!");
-		api.addBriefingItem("VKS Liliana and her sister ships must survive!");
-		api.addBriefingItem("VKS Skyshard is a prototype. It must also survive!");
+		api.addBriefingItem("Break the pirate fleet and clear the base perimeter.");
+		api.addBriefingItem("VKS Liliana and VKS Antalija must survive.");
+		api.addBriefingItem("Protect VKS Skyshard, the prototype escort ship.");
 		
 		// Set up the player's fleet.  Variant names come from the
 		// files in data/variants and data/variants/fighters
-		api.addToFleet(FleetSide.PLAYER, "valk_nirvana_II_A", FleetMemberType.SHIP, "VKS Liliana", true, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.PLAYER, "valk_nirvana_II_A", FleetMemberType.SHIP, "VKS Antalija", false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.PLAYER, "valk_nirvana_I_A", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "valk_almire_II_A", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "valk_nirvana_I_A", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "valk_heron_B", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "valk_heron_B", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "valk_eclair_A", FleetMemberType.SHIP, "VKS Skyshard", false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.PLAYER, "valk_elfheim_A", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "valk_elfheim_S", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "valk_elfheim_S", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "valk_inquisitor_A", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "valk_jenova_ECM", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "valk_yuusha_A", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "valk_yuusha_A", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "valk_firefly_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "valk_firefly_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "valk_azgard_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "valk_azgard_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "valk_azgard_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "valk_lightning_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.GREEN);
-		api.addToFleet(FleetSide.PLAYER, "valk_lightning_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.GREEN);
+		api.addToFleet(FleetSide.PLAYER, "valk_nirvana_II_A", FleetMemberType.SHIP, "VKS Liliana", true);
+		api.addToFleet(FleetSide.PLAYER, "valk_nirvana_II_A", FleetMemberType.SHIP, "VKS Antalija", false);
+		api.addToFleet(FleetSide.PLAYER, "valk_nirvana_I_A", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_almire_II_A", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_nirvana_I_A", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_heron_B", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_heron_B", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_eclair_A", FleetMemberType.SHIP, "VKS Skyshard", false);
+		api.addToFleet(FleetSide.PLAYER, "valk_elfheim_A", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_elfheim_S", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_elfheim_S", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_inquisitor_A", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_jenova_ECM", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_yuusha_A", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_yuusha_A", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_firefly_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_firefly_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_azgard_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_azgard_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_azgard_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_lightning_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "valk_lightning_wing", FleetMemberType.FIGHTER_WING, false);
 
 		
 		
@@ -64,42 +63,42 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.defeatOnShipLoss("VKS Skyshard");
 		
 		// Set up the enemy fleet.
-		// It's got more ships than the player's, and are stronger, but hey they are computer controled.
+		// It's got more ships than the player's, and are stronger, but hey they are computer controlled.
 		// api.addToFleet(FleetSide.ENEMY, "onslaught_Reconditioned", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "dominator_Support", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "dominator_Outdated", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "enforcer_CS", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "enforcer_CS", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "enforcer_Outdated", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "enforcer_Outdated", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "lasher_CS", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "lasher_CS", FleetMemberType.SHIP, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "lasher_Strike", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "lasher_Strike", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "lasher_Standard", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "lasher_Standard", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "hound_Standard", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "hound_Standard", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "hound_Standard", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "hound_Standard", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "broadsword_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "broadsword_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.GREEN);
-		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.GREEN);
-		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.GREEN);
-		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.GREEN);
-		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.GREEN);
-		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.GREEN);
+		api.addToFleet(FleetSide.ENEMY, "dominator_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "dominator_Outdated", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "enforcer_CS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "enforcer_CS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "enforcer_Outdated", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "enforcer_Outdated", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "condor_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "lasher_CS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "lasher_CS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "lasher_Strike", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "lasher_Strike", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "lasher_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "lasher_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "hound_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "hound_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "hound_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "hound_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "broadsword_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "broadsword_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "piranha_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "talon_wing", FleetMemberType.FIGHTER_WING, false);

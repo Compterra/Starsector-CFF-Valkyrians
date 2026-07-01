@@ -1,0 +1,2 @@
+id,name,faction,desc,script,icon,order
+valk_coordination_storefront,Valkyrian Procurement Desk,valkyrian,"A screened procurement desk opened by Valkyrian liaison staff, stocking limited hulls, Enigma Company weapons, LPCs, and doctrine hardware for cleared colonial authorities.",data.campaign.submarkets.ValkProcurementDesk,,0

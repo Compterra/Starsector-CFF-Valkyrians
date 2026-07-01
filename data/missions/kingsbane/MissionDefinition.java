@@ -1,7 +1,6 @@
 package data.missions.kingsbane;
 
 import com.fs.starfarer.api.combat.BattleObjectiveAPI;
-import com.fs.starfarer.api.campaign.CargoAPI.CrewXPLevel;
 import com.fs.starfarer.api.fleet.FleetGoal;
 import com.fs.starfarer.api.fleet.FleetMemberType;
 import com.fs.starfarer.api.mission.FleetSide;
@@ -25,27 +24,27 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		
 		// These show up as items in the bulleted list under 
 		// "Tactical Objectives" on the mission detail screen
-		api.addBriefingItem("Destroy the Exile");
+		api.addBriefingItem("Destroy VKS Exile before its escort can stabilize the line.");
 		
 		// Set up the player's fleet.  Variant names come from the
 		// files in data/variants and data/variants/fighters
-		api.addToFleet(FleetSide.PLAYER, "aurora_Balanced", FleetMemberType.SHIP, true, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.PLAYER, "eagle_Balanced", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "falcon_CS", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "falcon_CS", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "heron_Standard", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "hammerhead_Balanced", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.PLAYER, "sunder_CS", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);			
-		api.addToFleet(FleetSide.PLAYER, "afflictor_Strike", FleetMemberType.SHIP, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.PLAYER, "shade_Assault", FleetMemberType.SHIP, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.PLAYER, "shade_Assault", FleetMemberType.SHIP, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.PLAYER, "xyphos_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.PLAYER, "gladius_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "gladius_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);		
-		api.addToFleet(FleetSide.PLAYER, "broadsword_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "wasp_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);		
-		api.addToFleet(FleetSide.PLAYER, "wasp_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.PLAYER, "wasp_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);		
+		api.addToFleet(FleetSide.PLAYER, "aurora_Balanced", FleetMemberType.SHIP, true);
+		api.addToFleet(FleetSide.PLAYER, "eagle_Balanced", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "falcon_CS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "falcon_CS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "heron_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "hammerhead_Balanced", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "sunder_CS", FleetMemberType.SHIP, false);			
+		api.addToFleet(FleetSide.PLAYER, "afflictor_Strike", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "shade_Assault", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "shade_Assault", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "xyphos_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "gladius_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "gladius_wing", FleetMemberType.FIGHTER_WING, false);		
+		api.addToFleet(FleetSide.PLAYER, "broadsword_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "wasp_wing", FleetMemberType.FIGHTER_WING, false);		
+		api.addToFleet(FleetSide.PLAYER, "wasp_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "wasp_wing", FleetMemberType.FIGHTER_WING, false);		
 		
 		// Mark both ships as essential - losing either one results
 		// in mission failure. Could also be set on an enemy ship,
@@ -54,22 +53,22 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		//api.defeatOnShipLoss("HSS Abel");
 		
 		// Set up the enemy fleet.
-		// It's got more ships than the player's, and are stronger, but hey they are computer controled.
+		// It's got more ships than the player's, and are stronger, but hey they are computer controlled.
 		// api.addToFleet(FleetSide.ENEMY, "onslaught_Reconditioned", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "valk_yoshura_AS", FleetMemberType.SHIP, "VKS Exile", true, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_cherberos_A", FleetMemberType.SHIP, "VKS Titania", false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_heron_B", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "valk_elfheim_A", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);	
-		api.addToFleet(FleetSide.ENEMY, "valk_jenova_ECM", FleetMemberType.SHIP, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_yuusha_A", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);
-		api.addToFleet(FleetSide.ENEMY, "valk_yuusha_A", FleetMemberType.SHIP, false, CrewXPLevel.VETERAN);			
-		api.addToFleet(FleetSide.ENEMY, "valk_firefly_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_firefly_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_firefly_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_azgard_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);
-		api.addToFleet(FleetSide.ENEMY, "valk_azgard_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.REGULAR);		
-		api.addToFleet(FleetSide.ENEMY, "valk_lightning_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.ELITE);
-		api.addToFleet(FleetSide.ENEMY, "valk_lightning_wing", FleetMemberType.FIGHTER_WING, false, CrewXPLevel.ELITE);
+		api.addToFleet(FleetSide.ENEMY, "valk_yoshura_AS", FleetMemberType.SHIP, "VKS Exile", true);
+		api.addToFleet(FleetSide.ENEMY, "valk_cherberos_A", FleetMemberType.SHIP, "VKS Titania", false);
+		api.addToFleet(FleetSide.ENEMY, "valk_heron_B", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_elfheim_A", FleetMemberType.SHIP, false);	
+		api.addToFleet(FleetSide.ENEMY, "valk_jenova_ECM", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_yuusha_A", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_yuusha_A", FleetMemberType.SHIP, false);			
+		api.addToFleet(FleetSide.ENEMY, "valk_firefly_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_firefly_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_firefly_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_azgard_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_azgard_wing", FleetMemberType.FIGHTER_WING, false);		
+		api.addToFleet(FleetSide.ENEMY, "valk_lightning_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.ENEMY, "valk_lightning_wing", FleetMemberType.FIGHTER_WING, false);
 
 		
 		

@@ -7,14 +7,14 @@
   "startRelationships": {"hegemony": -0.3, "tritachyon": -0.3, "independent": 0.1},
   "maxRelationships": {"hegemony": 0.5, "pirates": -0.1},
   "diplomacyTraits": ["irredentist", "stalwart", "monopolist"],
-  "diplomacyPositiveChance": {"hegemony": 0.75, "tritachyon": 1.1, "sindrian_diktat": 1.5,"persean": 1.5},
+  "diplomacyPositiveChance": {"hegemony": 0.75, "tritachyon": 1.1, "sindrian_diktat": 1.5, "persean": 1.5},
   "diplomacyNegativeChance": {"hegemony": 1.5},
   "alignments": {
     "corporate": 0.5,
     "technocratic": 0.5,
     "militarist": 1,
     "diplomatic": -0.5,
-    "ideological": 0.5,
+    "ideological": 0.5
   },
   "colonyExpeditionChance": 1.25,
   "startShipsSolo": ["valk_ilena_Elite"],
@@ -39,14 +39,15 @@
     "valk_inquisitor_E"
   ],
   "startSpecialItems": [
-    [["valk_horizon_package", ""]],
+    [["valk_horizon_package", ""]]
   ],
   "defenceStations": [
     {"ids": ["orbitalstation", "battlestation", "starfortress"]},
-    {"ids": ["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight": 0.5},
+    {"ids": ["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight": 0.5}
   ],
   "industrySeeds": [
     {"id": "orbitalworks", "mult": 0.1},
+    {"id": "valk_war_coordination_bureau", "count": 1}
   ],
   "bonusSeeds": [
     {"id": "population_upsize", "count": 1},
@@ -55,5 +56,5 @@
     {"id": "aiCore_military", "mult": 0.3},
     {"id": "aiCore_heavyindustry", "count": 1},
     {"id": "aiCore_any", "mult": 1.2}
-  ],
+  ]
 }

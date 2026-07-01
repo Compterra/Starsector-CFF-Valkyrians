@@ -1,18 +1,22 @@
 Location: Planetary orbit near Heaven's Gate
 Date: 213.04.02
 
-{Heaven's Gate} is a metastable natural wormhole on the outer edge of {Valkyrian} space.
+{Heaven's Gate} is a metastable natural wormhole on the outer edge of {Valkyrian} space. Short-ranged and difficult to navigate, it is still valuable enough to build a state around.
 
-During the early development of the region, this short-range passage served as the economic engine behind the expansion of a mining empire. The Collapse changed that. Famine, endless deflation, and corporate overreach shattered the giants that had once ruled the area. Not long afterward, the wandering {Valkyrians} intervened and took control.
+Before the Collapse, the passage fed a mining empire. Afterward, famine, deflation, and corporate predation broke that empire apart. The wandering {Valkyrians} arrived in the ruins and made the gate their frontier shield.
 
-Several military operations connected to the {Atlantis Nebula} later proved the strategic value of {Heaven's Gate}. Rivalry with greater powers forced the {Valkyrians} to maintain a large fleet, allowing them to hold the wormhole while remaining competitive in external wars. The orbital base fleet under the Governor of Heaven's Gate and the royal fleet guarding Enigma together consumed nearly sixty percent of military expenditures.
+Wars around the {Atlantis Nebula} later proved its strategic worth. Holding the wormhole required a permanent battlefleet, and the old Governorate of Heaven's Gate became almost a state within the state: loyal to the crown in war, jealous of its ancient rights in peace.
 
-For decades, the arrangement held.
+For decades, that arrangement held.
 
-Then modernization began. Refitting an old military state drained the treasury, strained the army, and turned civilian resentment into open revolt. A rebellion became a fiscal crisis; the crisis became a civil war.
+Then modernization began. Refitting an aging military state drained the treasury, strained the army, and turned civilian resentment into revolt. A rebellion became a fiscal crisis; the crisis became a civil war.
 
-Garrisons across Valkyrian space were recalled. A Hegemony space marshal saw the weakened frontier and committed regular fleets and mercenaries to strike {Valkyria} on several fronts. Most attacks were repelled within three days, but a Hegemony war fleet hid inside the storm of assaults and drove straight for {Heaven's Gate}.
+Garrisons were recalled from across Valkyrian space. A Hegemony space marshal saw the weakened frontier and committed regular fleets and mercenaries to strike {Valkyria} on several fronts. Most attacks were repelled within three days, but one Hegemony war fleet used the chaos as cover and drove straight for {Heaven's Gate}.
 
 The new queen's flagship was still in hyperspace when she ordered the Governor of Heaven's Gate to abandon the stronghold and join the royal battle plan.
 
-The governor refused. Her stand defended both the honor of {Valkyria} and the ancient privileges that kept Heaven's Gate beyond direct royal authority. The Hegemony advance was stopped, but the governor died in battle. With its military power spent, Heaven's Gate was swept into the final phase of modernization. Royal Ordinance Twelve abolished the Governorate, revoked its tax privileges, economic grants, and autonomous statutes, and placed the region under joint protection of the Second Royal Guard and the planetary defense fleet.
+The governor refused.
+
+Her fleet held the line, defending both {Valkyria}'s honor and the ancient privileges that kept Heaven's Gate beyond direct royal authority. The Hegemony advance was stopped, but the governor died with her command. When the battle ended, the Governorate's military power was spent. Royal Ordinance Twelve soon abolished its special rights and placed the region under joint protection of the Second Royal Guard and the planetary defense fleet.
+
+This is the battle that ended the old frontier.

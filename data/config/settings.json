@@ -2,7 +2,7 @@
   "designTypeColors": {
     "Orken Manufacturing Group": [130, 0, 0, 255],
     "Horizon Shipyards": [200, 20, 40, 255],
-    "Enigma Company": [150, 0, 70, 255],
+    "Enigma Company": [150, 0, 70, 255]
   },
   "plugins": {
     "valk_CombatPlugin": "data.scripts.plugins.valk_CombatPlugin"
@@ -10,12 +10,12 @@
   "graphics": {
     "backgrounds": {
       "purplePeace": "graphics/backgrounds/valk_extra_background.jpg",
-      "enigma": "graphics/backgrounds/valk_background4.jpg",
+      "enigma": "graphics/backgrounds/valk_background4.jpg"
     },
     "blueprint_packages": {
       "valk_archon_package": "graphics/icons/cargo/bp_valk_archon.png",
       "valk_enigma_package": "graphics/icons/cargo/bp_valk_enigma.png",
-      "valk_horizon_package": "graphics/icons/cargo/bp_valk_horizon.png",
+      "valk_horizon_package": "graphics/icons/cargo/bp_valk_horizon.png"
     },
     "fx": {
       "valk_shockwave0": "graphics/fx/valk_shockwave0.png",
