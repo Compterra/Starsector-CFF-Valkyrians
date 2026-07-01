@@ -2,6 +2,16 @@
 
 This translated root changelog consolidates the legacy Chinese update notes into an English-facing summary. The detailed legacy English changelog remains available at docs/Valkyrians_Changelog.txt.
 
+## 4.0.0
+
+- Updated the mod for Starsector 0.98a-RC8 as a restoration release.
+- Fully polished major mission briefings, codex descriptions, faction text, and player-facing labels.
+- Added the Valkyrian Logistics Liaison and Orken-Enigma War Coordination Bureau structure chain with a screened procurement storefront.
+- Rebalanced and clarified Brynhildr Rotary Core, Valhalla Core, and Holy Covenant behavior and tooltips.
+- Fixed the Battle for Heaven's Gate and Valkyrian Database mission text issues caused by stale compiled jar classes.
+- Removed unused debug and duplicate combat plugin classes from the shipped jar.
+- Added GitHub-backed Version Checker support for the restoration fork.
+
 ## 3.3.11
 
 - Polished weapon codex descriptions for the cruise missile and GR Lance families so each entry has a clearer role and lore identity.
