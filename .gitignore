@@ -21,3 +21,4 @@ _audit/
 # Local archive leftovers
 *.rar
 *.7z
+*.codex_dp_backup_*
